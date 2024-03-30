@@ -1,0 +1,856 @@
+{
+  "mod_elements": [],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {}
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Mana Stuff",
+        "children": [
+          {
+            "name": "Magic",
+            "children": [
+              {
+                "name": "Basic Magic",
+                "children": []
+              },
+              {
+                "name": "Advanced Magic",
+                "children": []
+              },
+              {
+                "name": "Arc Magic",
+                "children": []
+              },
+              {
+                "name": "Dark Magic",
+                "children": [
+                  {
+                    "name": "Necromancy",
+                    "children": []
+                  },
+                  {
+                    "name": "Witchcraft",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "name": "Holy Magic",
+                "children": []
+              },
+              {
+                "name": "Elemental Magic",
+                "children": []
+              },
+              {
+                "name": "Demon Magic",
+                "children": []
+              },
+              {
+                "name": "Forbidden Magic",
+                "children": []
+              },
+              {
+                "name": "Ancient Dragon Magic",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "Mana",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Servants and Waifus",
+        "children": [
+          {
+            "name": "Waifus",
+            "children": [
+              {
+                "name": "Ryuka",
+                "children": []
+              },
+              {
+                "name": "Shinobu",
+                "children": []
+              },
+              {
+                "name": "Nika",
+                "children": []
+              },
+              {
+                "name": "Luna",
+                "children": []
+              },
+              {
+                "name": "Mimi",
+                "children": []
+              },
+              {
+                "name": "Alma",
+                "children": []
+              },
+              {
+                "name": "Olive",
+                "children": []
+              },
+              {
+                "name": "Aradia",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "Slaves",
+            "children": []
+          },
+          {
+            "name": "Demon Followers",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Dragons",
+        "children": [
+          {
+            "name": "Paladin Dragon",
+            "children": []
+          },
+          {
+            "name": "Ruin Dragon",
+            "children": []
+          },
+          {
+            "name": "Speed Drake",
+            "children": []
+          },
+          {
+            "name": "Rock Drake",
+            "children": []
+          },
+          {
+            "name": "Starved Dragon",
+            "children": []
+          },
+          {
+            "name": "Crystalline Dragon",
+            "children": []
+          },
+          {
+            "name": "Fairy Dragon",
+            "children": []
+          },
+          {
+            "name": "Harpy Dragon",
+            "children": []
+          },
+          {
+            "name": "Sea Dragon",
+            "children": []
+          },
+          {
+            "name": "Ancient Dragons",
+            "children": [
+              {
+                "name": "Chaos Incarnate",
+                "children": []
+              },
+              {
+                "name": "Bringer of Annihilation",
+                "children": []
+              },
+              {
+                "name": "Ruler of the Skies",
+                "children": []
+              },
+              {
+                "name": "Master of the Sands",
+                "children": []
+              },
+              {
+                "name": "Commander of the Deep",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Demon Lord",
+        "children": []
+      },
+      {
+        "name": "Monsters",
+        "children": [
+          {
+            "name": "World Bosses",
+            "children": [
+              {
+                "name": "Crimson Devourer",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "Broodmother",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Builds",
+        "children": [
+          {
+            "name": "Adventurers Guild",
+            "children": [
+              {
+                "name": "Card Reader",
+                "children": [
+                  {
+                    "name": "Guild Cards",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Pitfall Plant",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Particles",
+        "children": []
+      },
+      {
+        "name": "Dimensions",
+        "children": [
+          {
+            "name": "The Underground",
+            "children": []
+          },
+          {
+            "name": "Haven",
+            "children": []
+          },
+          {
+            "name": "Dragonia",
+            "children": []
+          },
+          {
+            "name": "Hell",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Ores",
+        "children": []
+      },
+      {
+        "name": "Animals",
+        "children": [
+          {
+            "name": "Crying Longhorn",
+            "children": [
+              {
+                "name": "Black Longhorn",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "Floof Fox",
+            "children": [
+              {
+                "name": "Arctic",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "Fleet Foot Hare",
+            "children": [
+              {
+                "name": "Arctic",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "ShadowWolves",
+            "children": [
+              {
+                "name": "Sub Wolf",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "GiantBoars",
+            "children": [
+              {
+                "name": "Boarling",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "Basilisk",
+            "children": []
+          },
+          {
+            "name": "Warrior Spider",
+            "children": []
+          },
+          {
+            "name": "Giant Toad",
+            "children": []
+          },
+          {
+            "name": "Saber Fang",
+            "children": []
+          },
+          {
+            "name": "Megalodon",
+            "children": []
+          },
+          {
+            "name": "Rock Tortoise",
+            "children": []
+          },
+          {
+            "name": "Speer Nose Baracuda",
+            "children": []
+          },
+          {
+            "name": "Razor Fang Piranha",
+            "children": []
+          },
+          {
+            "name": "legendary beast",
+            "children": [
+              {
+                "name": "Jormungander",
+                "children": []
+              },
+              {
+                "name": "Charybdis",
+                "children": []
+              },
+              {
+                "name": "Kraken",
+                "children": []
+              },
+              {
+                "name": "Hydra",
+                "children": []
+              },
+              {
+                "name": "Leviathan",
+                "children": []
+              },
+              {
+                "name": "King Kong",
+                "children": []
+              },
+              {
+                "name": "Lord of the Flys",
+                "children": []
+              },
+              {
+                "name": "War Horse",
+                "children": []
+              },
+              {
+                "name": "Phoenix",
+                "children": []
+              },
+              {
+                "name": "Wendigo",
+                "children": []
+              },
+              {
+                "name": "Chimera",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "Terrorsaurus",
+            "children": []
+          },
+          {
+            "name": "Kong",
+            "children": []
+          },
+          {
+            "name": "Bandit Monkey",
+            "children": []
+          },
+          {
+            "name": "Hunter Hawk",
+            "children": []
+          },
+          {
+            "name": "Steel Winged Eagle",
+            "children": []
+          },
+          {
+            "name": "Dragonfly",
+            "children": []
+          },
+          {
+            "name": "Giant Titan Beetle",
+            "children": []
+          },
+          {
+            "name": "Ambiant Animals",
+            "children": [
+              {
+                "name": "Birds",
+                "children": []
+              },
+              {
+                "name": "Fireflys",
+                "children": []
+              },
+              {
+                "name": "Butterflys",
+                "children": []
+              },
+              {
+                "name": "Crickets",
+                "children": []
+              },
+              {
+                "name": "Lizard",
+                "children": []
+              },
+              {
+                "name": "Turtle",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "Pengu",
+            "children": []
+          },
+          {
+            "name": "Stallion",
+            "children": []
+          },
+          {
+            "name": "Knight Owl",
+            "children": []
+          },
+          {
+            "name": "Wyvern",
+            "children": []
+          },
+          {
+            "name": "Runner Lizard",
+            "children": []
+          },
+          {
+            "name": "Dune Lizard",
+            "children": []
+          },
+          {
+            "name": "Tri Hump Camel",
+            "children": []
+          },
+          {
+            "name": "Armor Crab",
+            "children": []
+          },
+          {
+            "name": "Dark Raven",
+            "children": []
+          },
+          {
+            "name": "Trap Plant",
+            "children": []
+          },
+          {
+            "name": "Lava Serpent",
+            "children": []
+          },
+          {
+            "name": "Flying Snake",
+            "children": []
+          },
+          {
+            "name": "Spirit Deer",
+            "children": []
+          },
+          {
+            "name": "Gargoyle",
+            "children": []
+          },
+          {
+            "name": "Dire Bear",
+            "children": [
+              {
+                "name": "Dire Polar Bear",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "Pride King Leo",
+            "children": [
+              {
+                "name": "Leoness",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "Tank Rhinoceros",
+            "children": []
+          },
+          {
+            "name": "Rampage Elephant",
+            "children": []
+          },
+          {
+            "name": "Twin Head Giraffe",
+            "children": []
+          },
+          {
+            "name": "Horn Nosed Kangaroo",
+            "children": []
+          },
+          {
+            "name": "Blitz Horn Zebra",
+            "children": []
+          },
+          {
+            "name": "Bull Bison",
+            "children": []
+          },
+          {
+            "name": "Jackalope",
+            "children": []
+          },
+          {
+            "name": "Crocagator",
+            "children": []
+          },
+          {
+            "name": "Giant Butterfly",
+            "children": []
+          },
+          {
+            "name": "Swift Seal",
+            "children": []
+          },
+          {
+            "name": "Hunter Orca",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Food",
+        "children": []
+      },
+      {
+        "name": "Misc",
+        "children": [
+          {
+            "name": "key Binds",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "NPC",
+        "children": [
+          {
+            "name": "Otherworlders",
+            "children": []
+          },
+          {
+            "name": "Merchants",
+            "children": []
+          },
+          {
+            "name": "Adventurers",
+            "children": []
+          },
+          {
+            "name": "Villagers",
+            "children": []
+          },
+          {
+            "name": "Cultist",
+            "children": []
+          },
+          {
+            "name": "Bandits",
+            "children": []
+          },
+          {
+            "name": "Royals",
+            "children": []
+          },
+          {
+            "name": "Soldiers",
+            "children": []
+          },
+          {
+            "name": "Devotes",
+            "children": []
+          },
+          {
+            "name": "Drifters",
+            "children": []
+          },
+          {
+            "name": "Hermits",
+            "children": []
+          },
+          {
+            "name": "Rouges",
+            "children": []
+          },
+          {
+            "name": "Faye",
+            "children": []
+          },
+          {
+            "name": "Shinigami",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Heroes",
+        "children": [
+          {
+            "name": "Raijin Stuff",
+            "children": [
+              {
+                "name": "Armors",
+                "children": []
+              },
+              {
+                "name": "Weapons",
+                "children": [
+                  {
+                    "name": "Gloves",
+                    "children": []
+                  },
+                  {
+                    "name": "Staff",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "name": "Stats",
+                "children": []
+              },
+              {
+                "name": "Attacks",
+                "children": []
+              },
+              {
+                "name": "Raijin Gifts",
+                "children": []
+              },
+              {
+                "name": "Magic",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "Isekai Stuff",
+            "children": [
+              {
+                "name": "Armor",
+                "children": [
+                  {
+                    "name": "Basic Leather Armor",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "name": "Holy Sword",
+                "children": [
+                  {
+                    "name": "Forms and Levels",
+                    "children": [
+                      {
+                        "name": "Forms",
+                        "children": []
+                      },
+                      {
+                        "name": "Levels",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Attacks",
+                "children": []
+              },
+              {
+                "name": "Stats",
+                "children": [
+                  {
+                    "name": "Full Power",
+                    "children": []
+                  },
+                  {
+                    "name": "Base",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "name": "Magic",
+                "children": []
+              },
+              {
+                "name": "Goddess Gifts",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "Dragoneer Stuff",
+            "children": [
+              {
+                "name": "Armors",
+                "children": []
+              },
+              {
+                "name": "Claw",
+                "children": []
+              },
+              {
+                "name": "Amulet",
+                "children": []
+              },
+              {
+                "name": "Command Staff",
+                "children": []
+              },
+              {
+                "name": "Magic",
+                "children": []
+              },
+              {
+                "name": "Attacks",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "Succubus Stuff",
+            "children": [
+              {
+                "name": "Armors",
+                "children": []
+              },
+              {
+                "name": "Whip",
+                "children": []
+              },
+              {
+                "name": "Stats",
+                "children": []
+              },
+              {
+                "name": "Attacks",
+                "children": []
+              },
+              {
+                "name": "Magic",
+                "children": []
+              },
+              {
+                "name": "Demon Magic",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Skills",
+        "children": [
+          {
+            "name": "Passive Skills",
+            "children": []
+          },
+          {
+            "name": "Active Skills",
+            "children": []
+          },
+          {
+            "name": "Exclusive Skills",
+            "children": []
+          },
+          {
+            "name": "Ultimate Skills",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Deco Blocks",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "isekai_reborn",
+    "modName": "Isekai Reborn",
+    "version": "1.0.0",
+    "author": "User, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [
+      "kleiders_custom_renderer"
+    ],
+    "dependencies": [
+      "kleiders_custom_renderer"
+    ],
+    "dependants": [],
+    "mcreatorDependencies": [
+      "kleidersplayerrenderer",
+      "pehkui",
+      "use_compiled_mods",
+      "curios_api",
+      "geckolib",
+      "particlepresets",
+      "jei"
+    ],
+    "currentGenerator": "forge-1.20.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.isekaireborn",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300452316
+}
