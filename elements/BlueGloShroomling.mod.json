@@ -15,7 +15,7 @@
     "suspiciousStewDuration": 100,
     "growapableSpawnType": "Cave",
     "growapableMaxHeight": 3,
-    "customBoundingBox": false,
+    "customBoundingBox": true,
     "disableOffset": false,
     "boundingBoxes": [
       {

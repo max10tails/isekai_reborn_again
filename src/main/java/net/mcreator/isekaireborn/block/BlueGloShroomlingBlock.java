@@ -5,6 +5,9 @@ import org.checkerframework.checker.units.qual.s;
 
 import net.minecraftforge.common.PlantType;
 
+import net.minecraft.world.phys.shapes.VoxelShape;
+import net.minecraft.world.phys.shapes.CollisionContext;
+import net.minecraft.world.phys.Vec3;
 import net.minecraft.world.level.storage.loot.LootParams;
 import net.minecraft.world.level.material.PushReaction;
 import net.minecraft.world.level.material.MapColor;
@@ -29,6 +32,12 @@ public class BlueGloShroomlingBlock extends FlowerBlock {
 	public BlueGloShroomlingBlock() {
 		super(() -> MobEffects.GLOWING, 100, BlockBehaviour.Properties.of().mapColor(MapColor.PLANT).sound(SoundType.FUNGUS).instabreak().hasPostProcess((bs, br, bp) -> true).emissiveRendering((bs, br, bp) -> true).lightLevel(s -> 3).noCollission()
 				.offsetType(BlockBehaviour.OffsetType.XZ).pushReaction(PushReaction.DESTROY));
+	}
+
+	@Override
+	public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
+		Vec3 offset = state.getOffset(world, pos);
+		return box(0, 0, 0, 16, 16, 16).move(offset.x, offset.y, offset.z);
 	}
 
 	@Override
