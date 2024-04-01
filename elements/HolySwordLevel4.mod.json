@@ -28,6 +28,15 @@
     "repairItems": [],
     "immuneToFire": true,
     "stayInGridWhenCrafting": false,
-    "damageOnCrafting": false
+    "damageOnCrafting": false,
+    "onRightClickedInAir": {
+      "name": "HolySwordLevel4Rightclicked"
+    },
+    "onEntityHitWith": {
+      "name": "HolySwordLevel4LivingEntityIsHitWithTool"
+    },
+    "onItemInUseTick": {
+      "name": "HolySwordLevel4ToolInHandTick"
+    }
   }
 }
