@@ -1,8 +1,8 @@
 {
   "parent": "block/cross",
   "textures": {
-    "cross": "isekai_reborn:block/blue_glo_shroomling",
-    "particle": "isekai_reborn:block/blue_glo_shroomling"
+    "cross": "isekai_reborn:block/blueshroomling",
+    "particle": "isekai_reborn:block/blueshroomling"
   },
   "render_type": "cutout"
 }

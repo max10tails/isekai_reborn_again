@@ -141,8 +141,8 @@
       "registry_name": "holy_sword_level_2",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/isekaireborn/item/HolySwordLevel2Item.java",
-          "src/main/resources/assets/isekai_reborn/models/item/holy_sword_level_2.json"
+          "src/main/resources/assets/isekai_reborn/models/item/holy_sword_level_2.json",
+          "src/main/java/net/mcreator/isekaireborn/item/HolySwordLevel2Item.java"
         ]
       },
       "path": "~/Heroes/Isekai Stuff/Holy Sword/Forms and Levels/Forms/Sword"
@@ -263,8 +263,8 @@
       "registry_name": "holy_sword",
       "metadata": {
         "files": [
-          "src/main/resources/assets/isekai_reborn/models/item/holy_sword.json",
-          "src/main/java/net/mcreator/isekaireborn/item/HolySwordItem.java"
+          "src/main/java/net/mcreator/isekaireborn/item/HolySwordItem.java",
+          "src/main/resources/assets/isekai_reborn/models/item/holy_sword.json"
         ]
       },
       "path": "~/Heroes/Isekai Stuff/Holy Sword/Forms and Levels/Forms/Sword"
@@ -348,8 +348,8 @@
       "registry_name": "holy_sword_full_power",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/isekaireborn/item/HolySwordFullPowerItem.java",
-          "src/main/resources/assets/isekai_reborn/models/item/holy_sword_full_power.json"
+          "src/main/resources/assets/isekai_reborn/models/item/holy_sword_full_power.json",
+          "src/main/java/net/mcreator/isekaireborn/item/HolySwordFullPowerItem.java"
         ]
       },
       "path": "~/Heroes/Isekai Stuff/Holy Sword/Forms and Levels/Forms/Sword"
@@ -401,8 +401,8 @@
       "registry_name": "holy_sword_broken",
       "metadata": {
         "files": [
-          "src/main/resources/assets/isekai_reborn/models/item/holy_sword_broken.json",
-          "src/main/java/net/mcreator/isekaireborn/item/HolySwordBrokenItem.java"
+          "src/main/java/net/mcreator/isekaireborn/item/HolySwordBrokenItem.java",
+          "src/main/resources/assets/isekai_reborn/models/item/holy_sword_broken.json"
         ]
       },
       "path": "~/Heroes/Isekai Stuff/Holy Sword/Forms and Levels/Forms/Sword"
@@ -810,6 +810,23 @@
           "src/main/resources/assets/isekai_reborn/models/item/pink_glo_shroomling.json",
           "src/main/resources/assets/isekai_reborn/models/block/pink_glo_shroomling.json",
           "src/main/resources/assets/isekai_reborn/blockstates/pink_glo_shroomling.json"
+        ]
+      },
+      "path": "~/Plants/GloShrooms"
+    },
+    {
+      "name": "GreenGloShroomling",
+      "type": "plant",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "green_glo_shroomling",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/isekai_reborn/models/item/green_glo_shroomling.json",
+          "src/main/resources/assets/isekai_reborn/blockstates/green_glo_shroomling.json",
+          "src/main/java/net/mcreator/isekaireborn/block/GreenGloShroomlingBlock.java",
+          "src/main/resources/assets/isekai_reborn/models/block/green_glo_shroomling.json"
         ]
       },
       "path": "~/Plants/GloShrooms"
