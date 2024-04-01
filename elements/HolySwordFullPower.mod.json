@@ -1,0 +1,33 @@
+{
+  "_fv": 57,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Sword",
+    "renderType": 1,
+    "blockingRenderType": 0,
+    "texture": "holyswordfullpower",
+    "customModelName": "holyswordfullpower:default",
+    "blockingModelName": "Normal blocking",
+    "name": "Holy Sword Full Power",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "creativeTab": {
+      "value": "No creative tab entry"
+    },
+    "harvestLevel": 1,
+    "efficiency": 4.0,
+    "attackSpeed": 6.0,
+    "enchantability": 0,
+    "damageVsEntity": 30.0,
+    "usageCount": 3001,
+    "blocksAffected": [],
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "repairItems": [],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

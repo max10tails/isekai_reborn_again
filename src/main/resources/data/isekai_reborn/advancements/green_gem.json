@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "isekai_reborn:holy_sword_full_power"
+    },
+    "title": {
+      "translate": "advancements.green_gem.title"
+    },
+    "description": {
+      "translate": "advancements.green_gem.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "green_gem": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 2000
+  },
+  "parent": "isekai_reborn:purple_gem"
+}

@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "isekai_reborn:holy_sword_level_4"
+    },
+    "title": {
+      "translate": "advancements.purple_gem.title"
+    },
+    "description": {
+      "translate": "advancements.purple_gem.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "purple_gem": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 1000
+  },
+  "parent": "isekai_reborn:white_gem"
+}

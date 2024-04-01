@@ -1,0 +1,7 @@
+{
+  "parent": "isekai_reborn:custom/holyswordlevel3",
+  "textures": {
+    "1": "isekai_reborn:block/holysword",
+    "particle": "isekai_reborn:item/holyswordlevel3"
+  }
+}

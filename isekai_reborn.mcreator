@@ -1,9 +1,532 @@
 {
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "HolySword",
+      "type": "tool",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "holy_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/isekai_reborn/models/item/holy_sword.json",
+          "src/main/java/net/mcreator/isekaireborn/item/HolySwordItem.java"
+        ]
+      },
+      "path": "~/Heroes/Isekai Stuff/Holy Sword/Forms and Levels/Forms/Sword"
+    },
+    {
+      "name": "IsekaiRebornAgain",
+      "type": "tab",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "isekai_reborn_again",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Misc/creative"
+    },
+    {
+      "name": "HolySwordLevel1",
+      "type": "tool",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "holy_sword_level_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/isekai_reborn/models/item/holy_sword_level_1.json",
+          "src/main/java/net/mcreator/isekaireborn/item/HolySwordLevel1Item.java"
+        ]
+      },
+      "path": "~/Heroes/Isekai Stuff/Holy Sword/Forms and Levels/Forms/Sword"
+    },
+    {
+      "name": "HolySwordLevel2",
+      "type": "tool",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "holy_sword_level_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/isekaireborn/item/HolySwordLevel2Item.java",
+          "src/main/resources/assets/isekai_reborn/models/item/holy_sword_level_2.json"
+        ]
+      },
+      "path": "~/Heroes/Isekai Stuff/Holy Sword/Forms and Levels/Forms/Sword"
+    },
+    {
+      "name": "HolySwordLevel3",
+      "type": "tool",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "holy_sword_level_3",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/isekaireborn/item/HolySwordLevel3Item.java",
+          "src/main/resources/assets/isekai_reborn/models/item/holy_sword_level_3.json"
+        ]
+      },
+      "path": "~/Heroes/Isekai Stuff/Holy Sword/Forms and Levels/Forms/Sword"
+    },
+    {
+      "name": "HolySwordLevel4",
+      "type": "tool",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "holy_sword_level_4",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/isekai_reborn/models/item/holy_sword_level_4.json",
+          "src/main/java/net/mcreator/isekaireborn/item/HolySwordLevel4Item.java"
+        ]
+      },
+      "path": "~/Heroes/Isekai Stuff/Holy Sword/Forms and Levels/Forms/Sword"
+    },
+    {
+      "name": "HolySwordFullPower",
+      "type": "tool",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "holy_sword_full_power",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/isekaireborn/item/HolySwordFullPowerItem.java",
+          "src/main/resources/assets/isekai_reborn/models/item/holy_sword_full_power.json"
+        ]
+      },
+      "path": "~/Heroes/Isekai Stuff/Holy Sword/Forms and Levels/Forms/Sword"
+    },
+    {
+      "name": "HolySwordRightclicked",
+      "type": "procedure",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "holy_sword_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/isekaireborn/procedures/HolySwordRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Heroes/Isekai Stuff/Holy Sword/Forms and Levels/Forms/Sword"
+    },
+    {
+      "name": "HolySwordLivingEntityIsHitWithTool",
+      "type": "procedure",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "holy_sword_living_entity_is_hit_with_tool",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/isekaireborn/procedures/HolySwordLivingEntityIsHitWithToolProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Heroes/Isekai Stuff/Holy Sword/Forms and Levels/Forms/Sword"
+    },
+    {
+      "name": "HolySwordToolInHandTick",
+      "type": "procedure",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "holy_sword_tool_in_hand_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/isekaireborn/procedures/HolySwordToolInHandTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/Heroes/Isekai Stuff/Holy Sword/Forms and Levels/Forms/Sword"
+    },
+    {
+      "name": "HolySwordBroken",
+      "type": "tool",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "holy_sword_broken",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/isekai_reborn/models/item/holy_sword_broken.json",
+          "src/main/java/net/mcreator/isekaireborn/item/HolySwordBrokenItem.java"
+        ]
+      },
+      "path": "~/Heroes/Isekai Stuff/Holy Sword/Forms and Levels/Forms/Sword"
+    },
+    {
+      "name": "NewWorld",
+      "type": "achievement",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "new_world",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/isekai_reborn/advancements/new_world.json"
+        ]
+      },
+      "path": "~/Heroes/Isekai Stuff"
+    },
+    {
+      "name": "RedGem",
+      "type": "achievement",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_gem",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/isekai_reborn/advancements/red_gem.json"
+        ]
+      },
+      "path": "~/Heroes/Isekai Stuff/Holy Sword/Forms and Levels/Levels"
+    },
+    {
+      "name": "TealGem",
+      "type": "achievement",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "teal_gem",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/isekai_reborn/advancements/teal_gem.json"
+        ]
+      },
+      "path": "~/Heroes/Isekai Stuff/Holy Sword/Forms and Levels/Levels"
+    },
+    {
+      "name": "WhiteGem",
+      "type": "achievement",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "white_gem",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/isekai_reborn/advancements/white_gem.json"
+        ]
+      },
+      "path": "~/Heroes/Isekai Stuff/Holy Sword/Forms and Levels/Levels"
+    },
+    {
+      "name": "PurpleGem",
+      "type": "achievement",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purple_gem",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/isekai_reborn/advancements/purple_gem.json"
+        ]
+      },
+      "path": "~/Heroes/Isekai Stuff/Holy Sword/Forms and Levels/Levels"
+    },
+    {
+      "name": "GreenGem",
+      "type": "achievement",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "green_gem",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/isekai_reborn/advancements/green_gem.json"
+        ]
+      },
+      "path": "~/Heroes/Isekai Stuff/Holy Sword/Forms and Levels/Levels"
+    },
+    {
+      "name": "HolySwordBrokenToolInInventoryTick",
+      "type": "procedure",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "holy_sword_broken_tool_in_inventory_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/isekaireborn/procedures/HolySwordBrokenToolInInventoryTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Heroes/Isekai Stuff/Holy Sword/Forms and Levels/Forms/Sword"
+    },
+    {
+      "name": "HolySwordLevel1Rightclicked",
+      "type": "procedure",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "holy_sword_level_1_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/isekaireborn/procedures/HolySwordLevel1RightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Heroes/Isekai Stuff/Holy Sword/Forms and Levels/Forms/Sword"
+    },
+    {
+      "name": "HolySwordLevel1LivingEntityIsHitWithTool",
+      "type": "procedure",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "holy_sword_level_1_living_entity_is_hit_with_tool",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/isekaireborn/procedures/HolySwordLevel1LivingEntityIsHitWithToolProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Heroes/Isekai Stuff/Holy Sword/Forms and Levels/Forms/Sword"
+    },
+    {
+      "name": "HolySwordLevel1ToolInHandTick",
+      "type": "procedure",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "holy_sword_level_1_tool_in_hand_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/isekaireborn/procedures/HolySwordLevel1ToolInHandTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/Heroes/Isekai Stuff/Holy Sword/Forms and Levels/Forms/Sword"
+    },
+    {
+      "name": "HolySwordLevel2Rightclicked",
+      "type": "procedure",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "holy_sword_level_2_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/isekaireborn/procedures/HolySwordLevel2RightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Heroes/Isekai Stuff/Holy Sword/Forms and Levels/Forms/Sword"
+    },
+    {
+      "name": "HolySwordLevel2LivingEntityIsHitWithTool",
+      "type": "procedure",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "holy_sword_level_2_living_entity_is_hit_with_tool",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/isekaireborn/procedures/HolySwordLevel2LivingEntityIsHitWithToolProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Heroes/Isekai Stuff/Holy Sword/Forms and Levels/Forms/Sword"
+    },
+    {
+      "name": "HolySwordLevel2ToolInHandTick",
+      "type": "procedure",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "holy_sword_level_2_tool_in_hand_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/isekaireborn/procedures/HolySwordLevel2ToolInHandTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/Heroes/Isekai Stuff/Holy Sword/Forms and Levels/Forms/Sword"
+    }
+  ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "item_group.isekai_reborn.isekai_reborn_again": "Isekai Reborn Again",
+      "item.isekai_reborn.holy_sword_broken": "Holy Sword",
+      "advancements.purple_gem.descr": "The Holy Sword continues to grow",
+      "advancements.new_world.title": "New World",
+      "advancements.white_gem.title": "White Gem",
+      "item.isekai_reborn.holy_sword": "Holy Sword",
+      "item.isekai_reborn.holy_sword_full_power": "Holy Sword Full Power",
+      "item.isekai_reborn.holy_sword_level_3": "Holy Sword Level 3",
+      "item.isekai_reborn.holy_sword_level_2": "Holy Sword Level 2",
+      "advancements.purple_gem.title": "Purple Gem",
+      "item.isekai_reborn.holy_sword_level_4": "Holy Sword Level 4",
+      "advancements.green_gem.title": "Green Gem",
+      "advancements.new_world.descr": "Welcome to your new home",
+      "item.isekai_reborn.holy_sword_level_1": "Holy Sword Level 1",
+      "advancements.teal_gem.title": "Teal Gem",
+      "advancements.green_gem.descr": "The Holy Sword\u0027s full power!",
+      "advancements.red_gem.title": "Red Gem",
+      "advancements.white_gem.descr": "The Holy Sword grows stronger",
+      "advancements.teal_gem.descr": "The Holy Sword grows stronger",
+      "advancements.red_gem.descr": "The Holy Sword grows in power"
+    }
   },
   "foldersRoot": {
     "name": "~",
@@ -573,6 +1096,10 @@
           {
             "name": "key Binds",
             "children": []
+          },
+          {
+            "name": "creative",
+            "children": []
           }
         ]
       },
@@ -698,7 +1225,48 @@
                     "children": [
                       {
                         "name": "Forms",
-                        "children": []
+                        "children": [
+                          {
+                            "name": "Sword",
+                            "children": []
+                          },
+                          {
+                            "name": "Axe",
+                            "children": []
+                          },
+                          {
+                            "name": "Pick",
+                            "children": []
+                          },
+                          {
+                            "name": "Hammer",
+                            "children": []
+                          },
+                          {
+                            "name": "Great Sword",
+                            "children": []
+                          },
+                          {
+                            "name": "Giant Sword",
+                            "children": []
+                          },
+                          {
+                            "name": "Dagger",
+                            "children": []
+                          },
+                          {
+                            "name": "Spear",
+                            "children": []
+                          },
+                          {
+                            "name": "Katana",
+                            "children": []
+                          },
+                          {
+                            "name": "Shield",
+                            "children": []
+                          }
+                        ]
                       },
                       {
                         "name": "Levels",

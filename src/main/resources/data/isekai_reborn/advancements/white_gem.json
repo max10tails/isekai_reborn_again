@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "isekai_reborn:holy_sword_level_3"
+    },
+    "title": {
+      "translate": "advancements.white_gem.title"
+    },
+    "description": {
+      "translate": "advancements.white_gem.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "white_gem": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 1000
+  },
+  "parent": "isekai_reborn:teal_gem"
+}

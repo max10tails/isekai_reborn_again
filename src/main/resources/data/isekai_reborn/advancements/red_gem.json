@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "isekai_reborn:holy_sword_level_1"
+    },
+    "title": {
+      "translate": "advancements.red_gem.title"
+    },
+    "description": {
+      "translate": "advancements.red_gem.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "red_gem": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 1000
+  },
+  "parent": "isekai_reborn:new_world"
+}

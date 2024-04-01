@@ -1,0 +1,42 @@
+{
+  "_fv": 57,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Sword",
+    "renderType": 1,
+    "blockingRenderType": 0,
+    "texture": "holyswordlevel2",
+    "customModelName": "holyswordlevel2:default",
+    "blockingModelName": "Normal blocking",
+    "name": "Holy Sword Level 2",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "creativeTab": {
+      "value": "No creative tab entry"
+    },
+    "harvestLevel": 1,
+    "efficiency": 4.0,
+    "attackSpeed": 5.4,
+    "enchantability": 0,
+    "damageVsEntity": 8.0,
+    "usageCount": 901,
+    "blocksAffected": [],
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "repairItems": [],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onRightClickedInAir": {
+      "name": "HolySwordLevel2Rightclicked"
+    },
+    "onEntityHitWith": {
+      "name": "HolySwordLevel2LivingEntityIsHitWithTool"
+    },
+    "onItemInUseTick": {
+      "name": "HolySwordLevel2ToolInHandTick"
+    }
+  }
+}
