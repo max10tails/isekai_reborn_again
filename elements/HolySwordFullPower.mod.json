@@ -28,6 +28,15 @@
     "repairItems": [],
     "immuneToFire": true,
     "stayInGridWhenCrafting": false,
-    "damageOnCrafting": false
+    "damageOnCrafting": false,
+    "onRightClickedInAir": {
+      "name": "HolySwordFullPowerRightclicked"
+    },
+    "onEntityHitWith": {
+      "name": "HolySwordFullPowerLivingEntityIsHitWithTool"
+    },
+    "onItemInUseTick": {
+      "name": "HolySwordFullPowerToolInHandTick"
+    }
   }
 }
