@@ -1,9 +1,27 @@
 {
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "BlueGloShroomling",
+      "type": "plant",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_glo_shroomling",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/isekai_reborn/blockstates/blue_glo_shroomling.json",
+          "src/main/resources/assets/isekai_reborn/models/item/blue_glo_shroomling.json",
+          "src/main/java/net/mcreator/isekaireborn/block/BlueGloShroomlingBlock.java",
+          "src/main/resources/assets/isekai_reborn/models/block/blue_glo_shroomling.json"
+        ]
+      }
+    }
+  ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "block.isekai_reborn.blue_glo_shroomling": "Blue Glo Shroomling"
+    }
   },
   "foldersRoot": {
     "name": "~",
