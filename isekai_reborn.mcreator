@@ -504,23 +504,50 @@
     {
       "name": "BlueGloShroomling",
       "type": "plant",
+      "sortid": 25,
       "compiles": true,
       "locked_code": false,
       "registry_name": "blue_glo_shroomling",
       "metadata": {
         "files": [
+          "src/main/resources/data/isekai_reborn/worldgen/configured_feature/blue_glo_shroomling.json",
           "src/main/resources/assets/isekai_reborn/models/block/blue_glo_shroomling.json",
           "src/main/resources/assets/isekai_reborn/models/item/blue_glo_shroomling.json",
+          "src/main/resources/data/isekai_reborn/forge/biome_modifier/blue_glo_shroomling_biome_modifier.json",
+          "src/main/resources/data/isekai_reborn/worldgen/placed_feature/blue_glo_shroomling.json",
           "src/main/resources/assets/isekai_reborn/blockstates/blue_glo_shroomling.json",
           "src/main/java/net/mcreator/isekaireborn/block/BlueGloShroomlingBlock.java"
         ]
-      }
+      },
+      "path": "~/Plants/GloShrooms"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "item_group.isekai_reborn.isekai_reborn_again": "Isekai Reborn Again",
+      "item.isekai_reborn.holy_sword_broken": "Holy Sword",
+      "advancements.purple_gem.descr": "The Holy Sword continues to grow",
+      "advancements.new_world.title": "New World",
+      "advancements.white_gem.title": "White Gem",
+      "item.isekai_reborn.holy_sword": "Holy Sword",
+      "item.isekai_reborn.holy_sword_full_power": "Holy Sword Full Power",
+      "block.isekai_reborn.blue_glo_shroomling": "Blue Glo Shroomling",
+      "item.isekai_reborn.holy_sword_level_3": "Holy Sword Level 3",
+      "item.isekai_reborn.holy_sword_level_2": "Holy Sword Level 2",
+      "advancements.purple_gem.title": "Purple Gem",
+      "item.isekai_reborn.holy_sword_level_4": "Holy Sword Level 4",
+      "advancements.green_gem.title": "Green Gem",
+      "advancements.new_world.descr": "Welcome to your new home",
+      "item.isekai_reborn.holy_sword_level_1": "Holy Sword Level 1",
+      "advancements.teal_gem.title": "Teal Gem",
+      "advancements.green_gem.descr": "The Holy Sword\u0027s full power!",
+      "advancements.red_gem.title": "Red Gem",
+      "advancements.white_gem.descr": "The Holy Sword grows stronger",
+      "advancements.teal_gem.descr": "The Holy Sword grows stronger",
+      "advancements.red_gem.descr": "The Holy Sword grows in power"
+    }
   },
   "foldersRoot": {
     "name": "~",
@@ -1379,6 +1406,15 @@
                 "children": []
               }
             ]
+          }
+        ]
+      },
+      {
+        "name": "Plants",
+        "children": [
+          {
+            "name": "GloShrooms",
+            "children": []
           }
         ]
       }

@@ -1,0 +1,8 @@
+{
+  "type": "forge:add_features",
+  "biomes": {
+    "type": "forge:any"
+  },
+  "features": "isekai_reborn:blue_glo_shroomling",
+  "step": "vegetal_decoration"
+}
