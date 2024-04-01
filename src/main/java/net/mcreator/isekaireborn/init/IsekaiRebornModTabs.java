@@ -32,7 +32,6 @@ public class IsekaiRebornModTabs {
 
 		if (tabData.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
 			tabData.accept(IsekaiRebornModBlocks.BLUE_GLO_SHROOMLING.get().asItem());
-			tabData.accept(IsekaiRebornModBlocks.PINK_GLO_SHROOMLING.get().asItem());
 		}
 	}
 }
