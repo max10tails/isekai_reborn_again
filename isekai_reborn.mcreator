@@ -796,6 +796,23 @@
         ]
       },
       "path": "~/Heroes/Isekai Stuff/Holy Sword/Forms and Levels/Forms/Sword"
+    },
+    {
+      "name": "PinkGloShroomling",
+      "type": "plant",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pink_glo_shroomling",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/isekaireborn/block/PinkGloShroomlingBlock.java",
+          "src/main/resources/assets/isekai_reborn/models/item/pink_glo_shroomling.json",
+          "src/main/resources/assets/isekai_reborn/models/block/pink_glo_shroomling.json",
+          "src/main/resources/assets/isekai_reborn/blockstates/pink_glo_shroomling.json"
+        ]
+      },
+      "path": "~/Plants/GloShrooms"
     }
   ],
   "variable_elements": [],
@@ -814,6 +831,7 @@
       "item.isekai_reborn.holy_sword_level_2": "Holy Sword Level 2",
       "advancements.purple_gem.title": "Purple Gem",
       "item.isekai_reborn.holy_sword_level_4": "Holy Sword Level 4",
+      "block.isekai_reborn.pink_glo_shroomling": "Pink Glo Shroomling",
       "advancements.green_gem.title": "Green Gem",
       "advancements.new_world.descr": "Welcome to your new home",
       "item.isekai_reborn.holy_sword_level_1": "Holy Sword Level 1",
