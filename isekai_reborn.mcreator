@@ -1,21 +1,6 @@
 {
   "mod_elements": [
     {
-      "name": "HolySword",
-      "type": "tool",
-      "sortid": 2,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "holy_sword",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/isekai_reborn/models/item/holy_sword.json",
-          "src/main/java/net/mcreator/isekaireborn/item/HolySwordItem.java"
-        ]
-      },
-      "path": "~/Heroes/Isekai Stuff/Holy Sword/Forms and Levels/Forms/Sword"
-    },
-    {
       "name": "IsekaiRebornAgain",
       "type": "tab",
       "sortid": 1,
@@ -28,46 +13,67 @@
       "path": "~/Misc/creative"
     },
     {
-      "name": "HolySwordLevel1",
-      "type": "tool",
-      "sortid": 3,
+      "name": "PurpleGem",
+      "type": "achievement",
+      "sortid": 16,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "holy_sword_level_1",
+      "registry_name": "purple_gem",
       "metadata": {
         "files": [
-          "src/main/resources/assets/isekai_reborn/models/item/holy_sword_level_1.json",
-          "src/main/java/net/mcreator/isekaireborn/item/HolySwordLevel1Item.java"
+          "src/main/resources/data/isekai_reborn/advancements/purple_gem.json"
+        ]
+      },
+      "path": "~/Heroes/Isekai Stuff/Holy Sword/Forms and Levels/Levels"
+    },
+    {
+      "name": "HolySwordLivingEntityIsHitWithTool",
+      "type": "procedure",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "holy_sword_living_entity_is_hit_with_tool",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/isekaireborn/procedures/HolySwordLivingEntityIsHitWithToolProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
         ]
       },
       "path": "~/Heroes/Isekai Stuff/Holy Sword/Forms and Levels/Forms/Sword"
     },
     {
-      "name": "HolySwordLevel2",
-      "type": "tool",
-      "sortid": 4,
+      "name": "HolySwordLevel2ToolInHandTick",
+      "type": "procedure",
+      "sortid": 24,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "holy_sword_level_2",
+      "registry_name": "holy_sword_level_2_tool_in_hand_tick",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/isekaireborn/item/HolySwordLevel2Item.java",
-          "src/main/resources/assets/isekai_reborn/models/item/holy_sword_level_2.json"
-        ]
-      },
-      "path": "~/Heroes/Isekai Stuff/Holy Sword/Forms and Levels/Forms/Sword"
-    },
-    {
-      "name": "HolySwordLevel3",
-      "type": "tool",
-      "sortid": 5,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "holy_sword_level_3",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/isekaireborn/item/HolySwordLevel3Item.java",
-          "src/main/resources/assets/isekai_reborn/models/item/holy_sword_level_3.json"
+          "src/main/java/net/mcreator/isekaireborn/procedures/HolySwordLevel2ToolInHandTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
         ]
       },
       "path": "~/Heroes/Isekai Stuff/Holy Sword/Forms and Levels/Forms/Sword"
@@ -88,16 +94,70 @@
       "path": "~/Heroes/Isekai Stuff/Holy Sword/Forms and Levels/Forms/Sword"
     },
     {
-      "name": "HolySwordFullPower",
-      "type": "tool",
-      "sortid": 7,
+      "name": "HolySwordToolInHandTick",
+      "type": "procedure",
+      "sortid": 10,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "holy_sword_full_power",
+      "registry_name": "holy_sword_tool_in_hand_tick",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/isekaireborn/item/HolySwordFullPowerItem.java",
-          "src/main/resources/assets/isekai_reborn/models/item/holy_sword_full_power.json"
+          "src/main/java/net/mcreator/isekaireborn/procedures/HolySwordToolInHandTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/Heroes/Isekai Stuff/Holy Sword/Forms and Levels/Forms/Sword"
+    },
+    {
+      "name": "HolySwordLevel3",
+      "type": "tool",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "holy_sword_level_3",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/isekaireborn/item/HolySwordLevel3Item.java",
+          "src/main/resources/assets/isekai_reborn/models/item/holy_sword_level_3.json"
+        ]
+      },
+      "path": "~/Heroes/Isekai Stuff/Holy Sword/Forms and Levels/Forms/Sword"
+    },
+    {
+      "name": "HolySwordLevel2",
+      "type": "tool",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "holy_sword_level_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/isekaireborn/item/HolySwordLevel2Item.java",
+          "src/main/resources/assets/isekai_reborn/models/item/holy_sword_level_2.json"
+        ]
+      },
+      "path": "~/Heroes/Isekai Stuff/Holy Sword/Forms and Levels/Forms/Sword"
+    },
+    {
+      "name": "HolySwordLevel1",
+      "type": "tool",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "holy_sword_level_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/isekai_reborn/models/item/holy_sword_level_1.json",
+          "src/main/java/net/mcreator/isekaireborn/item/HolySwordLevel1Item.java"
         ]
       },
       "path": "~/Heroes/Isekai Stuff/Holy Sword/Forms and Levels/Forms/Sword"
@@ -143,15 +203,82 @@
       "path": "~/Heroes/Isekai Stuff/Holy Sword/Forms and Levels/Forms/Sword"
     },
     {
-      "name": "HolySwordLivingEntityIsHitWithTool",
-      "type": "procedure",
-      "sortid": 9,
+      "name": "WhiteGem",
+      "type": "achievement",
+      "sortid": 15,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "holy_sword_living_entity_is_hit_with_tool",
+      "registry_name": "white_gem",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/isekaireborn/procedures/HolySwordLivingEntityIsHitWithToolProcedure.java"
+          "src/main/resources/data/isekai_reborn/advancements/white_gem.json"
+        ]
+      },
+      "path": "~/Heroes/Isekai Stuff/Holy Sword/Forms and Levels/Levels"
+    },
+    {
+      "name": "HolySwordBrokenToolInInventoryTick",
+      "type": "procedure",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "holy_sword_broken_tool_in_inventory_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/isekaireborn/procedures/HolySwordBrokenToolInInventoryTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Heroes/Isekai Stuff/Holy Sword/Forms and Levels/Forms/Sword"
+    },
+    {
+      "name": "NewWorld",
+      "type": "achievement",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "new_world",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/isekai_reborn/advancements/new_world.json"
+        ]
+      },
+      "path": "~/Heroes/Isekai Stuff"
+    },
+    {
+      "name": "HolySword",
+      "type": "tool",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "holy_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/isekai_reborn/models/item/holy_sword.json",
+          "src/main/java/net/mcreator/isekaireborn/item/HolySwordItem.java"
+        ]
+      },
+      "path": "~/Heroes/Isekai Stuff/Holy Sword/Forms and Levels/Forms/Sword"
+    },
+    {
+      "name": "HolySwordLevel2LivingEntityIsHitWithTool",
+      "type": "procedure",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "holy_sword_level_2_living_entity_is_hit_with_tool",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/isekaireborn/procedures/HolySwordLevel2LivingEntityIsHitWithToolProcedure.java"
         ],
         "dependencies": [
           {
@@ -171,15 +298,86 @@
       "path": "~/Heroes/Isekai Stuff/Holy Sword/Forms and Levels/Forms/Sword"
     },
     {
-      "name": "HolySwordToolInHandTick",
-      "type": "procedure",
-      "sortid": 10,
+      "name": "RedGem",
+      "type": "achievement",
+      "sortid": 13,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "holy_sword_tool_in_hand_tick",
+      "registry_name": "red_gem",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/isekaireborn/procedures/HolySwordToolInHandTickProcedure.java"
+          "src/main/resources/data/isekai_reborn/advancements/red_gem.json"
+        ]
+      },
+      "path": "~/Heroes/Isekai Stuff/Holy Sword/Forms and Levels/Levels"
+    },
+    {
+      "name": "HolySwordLevel1LivingEntityIsHitWithTool",
+      "type": "procedure",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "holy_sword_level_1_living_entity_is_hit_with_tool",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/isekaireborn/procedures/HolySwordLevel1LivingEntityIsHitWithToolProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Heroes/Isekai Stuff/Holy Sword/Forms and Levels/Forms/Sword"
+    },
+    {
+      "name": "HolySwordFullPower",
+      "type": "tool",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "holy_sword_full_power",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/isekaireborn/item/HolySwordFullPowerItem.java",
+          "src/main/resources/assets/isekai_reborn/models/item/holy_sword_full_power.json"
+        ]
+      },
+      "path": "~/Heroes/Isekai Stuff/Holy Sword/Forms and Levels/Forms/Sword"
+    },
+    {
+      "name": "GreenGem",
+      "type": "achievement",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "green_gem",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/isekai_reborn/advancements/green_gem.json"
+        ]
+      },
+      "path": "~/Heroes/Isekai Stuff/Holy Sword/Forms and Levels/Levels"
+    },
+    {
+      "name": "HolySwordLevel1ToolInHandTick",
+      "type": "procedure",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "holy_sword_level_1_tool_in_hand_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/isekaireborn/procedures/HolySwordLevel1ToolInHandTickProcedure.java"
         ],
         "dependencies": [
           {
@@ -205,114 +403,6 @@
         "files": [
           "src/main/resources/assets/isekai_reborn/models/item/holy_sword_broken.json",
           "src/main/java/net/mcreator/isekaireborn/item/HolySwordBrokenItem.java"
-        ]
-      },
-      "path": "~/Heroes/Isekai Stuff/Holy Sword/Forms and Levels/Forms/Sword"
-    },
-    {
-      "name": "NewWorld",
-      "type": "achievement",
-      "sortid": 12,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "new_world",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/isekai_reborn/advancements/new_world.json"
-        ]
-      },
-      "path": "~/Heroes/Isekai Stuff"
-    },
-    {
-      "name": "RedGem",
-      "type": "achievement",
-      "sortid": 13,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "red_gem",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/isekai_reborn/advancements/red_gem.json"
-        ]
-      },
-      "path": "~/Heroes/Isekai Stuff/Holy Sword/Forms and Levels/Levels"
-    },
-    {
-      "name": "TealGem",
-      "type": "achievement",
-      "sortid": 14,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "teal_gem",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/isekai_reborn/advancements/teal_gem.json"
-        ]
-      },
-      "path": "~/Heroes/Isekai Stuff/Holy Sword/Forms and Levels/Levels"
-    },
-    {
-      "name": "WhiteGem",
-      "type": "achievement",
-      "sortid": 15,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "white_gem",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/isekai_reborn/advancements/white_gem.json"
-        ]
-      },
-      "path": "~/Heroes/Isekai Stuff/Holy Sword/Forms and Levels/Levels"
-    },
-    {
-      "name": "PurpleGem",
-      "type": "achievement",
-      "sortid": 16,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "purple_gem",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/isekai_reborn/advancements/purple_gem.json"
-        ]
-      },
-      "path": "~/Heroes/Isekai Stuff/Holy Sword/Forms and Levels/Levels"
-    },
-    {
-      "name": "GreenGem",
-      "type": "achievement",
-      "sortid": 17,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "green_gem",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/isekai_reborn/advancements/green_gem.json"
-        ]
-      },
-      "path": "~/Heroes/Isekai Stuff/Holy Sword/Forms and Levels/Levels"
-    },
-    {
-      "name": "HolySwordBrokenToolInInventoryTick",
-      "type": "procedure",
-      "sortid": 18,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "holy_sword_broken_tool_in_inventory_tick",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/isekaireborn/procedures/HolySwordBrokenToolInInventoryTickProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
         ]
       },
       "path": "~/Heroes/Isekai Stuff/Holy Sword/Forms and Levels/Forms/Sword"
@@ -352,58 +442,6 @@
           {
             "name": "world",
             "type": "world"
-          }
-        ]
-      },
-      "path": "~/Heroes/Isekai Stuff/Holy Sword/Forms and Levels/Forms/Sword"
-    },
-    {
-      "name": "HolySwordLevel1LivingEntityIsHitWithTool",
-      "type": "procedure",
-      "sortid": 20,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "holy_sword_level_1_living_entity_is_hit_with_tool",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/isekaireborn/procedures/HolySwordLevel1LivingEntityIsHitWithToolProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "sourceentity",
-            "type": "entity"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/Heroes/Isekai Stuff/Holy Sword/Forms and Levels/Forms/Sword"
-    },
-    {
-      "name": "HolySwordLevel1ToolInHandTick",
-      "type": "procedure",
-      "sortid": 21,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "holy_sword_level_1_tool_in_hand_tick",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/isekaireborn/procedures/HolySwordLevel1ToolInHandTickProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "itemstack",
-            "type": "itemstack"
           }
         ]
       },
@@ -450,283 +488,279 @@
       "path": "~/Heroes/Isekai Stuff/Holy Sword/Forms and Levels/Forms/Sword"
     },
     {
-      "name": "HolySwordLevel2LivingEntityIsHitWithTool",
-      "type": "procedure",
-      "sortid": 23,
+      "name": "TealGem",
+      "type": "achievement",
+      "sortid": 14,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "holy_sword_level_2_living_entity_is_hit_with_tool",
+      "registry_name": "teal_gem",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/isekaireborn/procedures/HolySwordLevel2LivingEntityIsHitWithToolProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "sourceentity",
-            "type": "entity"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
+          "src/main/resources/data/isekai_reborn/advancements/teal_gem.json"
         ]
       },
-      "path": "~/Heroes/Isekai Stuff/Holy Sword/Forms and Levels/Forms/Sword"
+      "path": "~/Heroes/Isekai Stuff/Holy Sword/Forms and Levels/Levels"
     },
     {
-      "name": "HolySwordLevel2ToolInHandTick",
-      "type": "procedure",
-      "sortid": 24,
+      "name": "BlueGloShroomling",
+      "type": "plant",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "holy_sword_level_2_tool_in_hand_tick",
+      "registry_name": "blue_glo_shroomling",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/isekaireborn/procedures/HolySwordLevel2ToolInHandTickProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "itemstack",
-            "type": "itemstack"
-          }
+          "src/main/resources/assets/isekai_reborn/models/block/blue_glo_shroomling.json",
+          "src/main/resources/assets/isekai_reborn/models/item/blue_glo_shroomling.json",
+          "src/main/resources/assets/isekai_reborn/blockstates/blue_glo_shroomling.json",
+          "src/main/java/net/mcreator/isekaireborn/block/BlueGloShroomlingBlock.java"
         ]
-      },
-      "path": "~/Heroes/Isekai Stuff/Holy Sword/Forms and Levels/Forms/Sword"
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
-    "en_us": {
-      "item_group.isekai_reborn.isekai_reborn_again": "Isekai Reborn Again",
-      "item.isekai_reborn.holy_sword_broken": "Holy Sword",
-      "advancements.purple_gem.descr": "The Holy Sword continues to grow",
-      "advancements.new_world.title": "New World",
-      "advancements.white_gem.title": "White Gem",
-      "item.isekai_reborn.holy_sword": "Holy Sword",
-      "item.isekai_reborn.holy_sword_full_power": "Holy Sword Full Power",
-      "item.isekai_reborn.holy_sword_level_3": "Holy Sword Level 3",
-      "item.isekai_reborn.holy_sword_level_2": "Holy Sword Level 2",
-      "advancements.purple_gem.title": "Purple Gem",
-      "item.isekai_reborn.holy_sword_level_4": "Holy Sword Level 4",
-      "advancements.green_gem.title": "Green Gem",
-      "advancements.new_world.descr": "Welcome to your new home",
-      "item.isekai_reborn.holy_sword_level_1": "Holy Sword Level 1",
-      "advancements.teal_gem.title": "Teal Gem",
-      "advancements.green_gem.descr": "The Holy Sword\u0027s full power!",
-      "advancements.red_gem.title": "Red Gem",
-      "advancements.white_gem.descr": "The Holy Sword grows stronger",
-      "advancements.teal_gem.descr": "The Holy Sword grows stronger",
-      "advancements.red_gem.descr": "The Holy Sword grows in power"
-    }
+    "en_us": {}
   },
   "foldersRoot": {
     "name": "~",
     "children": [
       {
-        "name": "Mana Stuff",
+        "name": "Misc",
         "children": [
           {
-            "name": "Magic",
+            "name": "key Binds",
+            "children": []
+          },
+          {
+            "name": "creative",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Heroes",
+        "children": [
+          {
+            "name": "Raijin Stuff",
             "children": [
               {
-                "name": "Basic Magic",
+                "name": "Raijin Gifts",
                 "children": []
               },
               {
-                "name": "Advanced Magic",
+                "name": "Magic",
                 "children": []
               },
               {
-                "name": "Arc Magic",
+                "name": "Stats",
                 "children": []
               },
               {
-                "name": "Dark Magic",
+                "name": "Weapons",
                 "children": [
                   {
-                    "name": "Necromancy",
+                    "name": "Staff",
                     "children": []
                   },
                   {
-                    "name": "Witchcraft",
+                    "name": "Gloves",
                     "children": []
                   }
                 ]
               },
               {
-                "name": "Holy Magic",
+                "name": "Attacks",
                 "children": []
               },
               {
-                "name": "Elemental Magic",
+                "name": "Armors",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "Dragoneer Stuff",
+            "children": [
+              {
+                "name": "Amulet",
+                "children": []
+              },
+              {
+                "name": "Claw",
+                "children": []
+              },
+              {
+                "name": "Armors",
+                "children": []
+              },
+              {
+                "name": "Command Staff",
+                "children": []
+              },
+              {
+                "name": "Magic",
+                "children": []
+              },
+              {
+                "name": "Attacks",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "Succubus Stuff",
+            "children": [
+              {
+                "name": "Whip",
+                "children": []
+              },
+              {
+                "name": "Magic",
+                "children": []
+              },
+              {
+                "name": "Attacks",
+                "children": []
+              },
+              {
+                "name": "Armors",
+                "children": []
+              },
+              {
+                "name": "Stats",
                 "children": []
               },
               {
                 "name": "Demon Magic",
                 "children": []
-              },
-              {
-                "name": "Forbidden Magic",
-                "children": []
-              },
-              {
-                "name": "Ancient Dragon Magic",
-                "children": []
               }
             ]
           },
           {
-            "name": "Mana",
-            "children": []
+            "name": "Isekai Stuff",
+            "children": [
+              {
+                "name": "Magic",
+                "children": []
+              },
+              {
+                "name": "Armor",
+                "children": [
+                  {
+                    "name": "Basic Leather Armor",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "name": "Attacks",
+                "children": []
+              },
+              {
+                "name": "Stats",
+                "children": [
+                  {
+                    "name": "Full Power",
+                    "children": []
+                  },
+                  {
+                    "name": "Base",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "name": "Holy Sword",
+                "children": [
+                  {
+                    "name": "Forms and Levels",
+                    "children": [
+                      {
+                        "name": "Forms",
+                        "children": [
+                          {
+                            "name": "Pick",
+                            "children": []
+                          },
+                          {
+                            "name": "Katana",
+                            "children": []
+                          },
+                          {
+                            "name": "Hammer",
+                            "children": []
+                          },
+                          {
+                            "name": "Great Sword",
+                            "children": []
+                          },
+                          {
+                            "name": "Giant Sword",
+                            "children": []
+                          },
+                          {
+                            "name": "Sword",
+                            "children": []
+                          },
+                          {
+                            "name": "Dagger",
+                            "children": []
+                          },
+                          {
+                            "name": "Shield",
+                            "children": []
+                          },
+                          {
+                            "name": "Axe",
+                            "children": []
+                          },
+                          {
+                            "name": "Spear",
+                            "children": []
+                          }
+                        ]
+                      },
+                      {
+                        "name": "Levels",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Goddess Gifts",
+                "children": []
+              }
+            ]
           }
         ]
       },
       {
-        "name": "Servants and Waifus",
+        "name": "Skills",
         "children": [
           {
-            "name": "Waifus",
-            "children": [
-              {
-                "name": "Ryuka",
-                "children": []
-              },
-              {
-                "name": "Shinobu",
-                "children": []
-              },
-              {
-                "name": "Nika",
-                "children": []
-              },
-              {
-                "name": "Luna",
-                "children": []
-              },
-              {
-                "name": "Mimi",
-                "children": []
-              },
-              {
-                "name": "Alma",
-                "children": []
-              },
-              {
-                "name": "Olive",
-                "children": []
-              },
-              {
-                "name": "Aradia",
-                "children": []
-              }
-            ]
-          },
-          {
-            "name": "Slaves",
+            "name": "Passive Skills",
             "children": []
           },
           {
-            "name": "Demon Followers",
-            "children": []
-          }
-        ]
-      },
-      {
-        "name": "Dragons",
-        "children": [
-          {
-            "name": "Paladin Dragon",
+            "name": "Active Skills",
             "children": []
           },
           {
-            "name": "Ruin Dragon",
+            "name": "Ultimate Skills",
             "children": []
           },
           {
-            "name": "Speed Drake",
+            "name": "Exclusive Skills",
             "children": []
-          },
-          {
-            "name": "Rock Drake",
-            "children": []
-          },
-          {
-            "name": "Starved Dragon",
-            "children": []
-          },
-          {
-            "name": "Crystalline Dragon",
-            "children": []
-          },
-          {
-            "name": "Fairy Dragon",
-            "children": []
-          },
-          {
-            "name": "Harpy Dragon",
-            "children": []
-          },
-          {
-            "name": "Sea Dragon",
-            "children": []
-          },
-          {
-            "name": "Ancient Dragons",
-            "children": [
-              {
-                "name": "Chaos Incarnate",
-                "children": []
-              },
-              {
-                "name": "Bringer of Annihilation",
-                "children": []
-              },
-              {
-                "name": "Ruler of the Skies",
-                "children": []
-              },
-              {
-                "name": "Master of the Sands",
-                "children": []
-              },
-              {
-                "name": "Commander of the Deep",
-                "children": []
-              }
-            ]
           }
         ]
       },
       {
         "name": "Demon Lord",
         "children": []
-      },
-      {
-        "name": "Monsters",
-        "children": [
-          {
-            "name": "World Bosses",
-            "children": [
-              {
-                "name": "Crimson Devourer",
-                "children": []
-              }
-            ]
-          },
-          {
-            "name": "Broodmother",
-            "children": []
-          }
-        ]
       },
       {
         "name": "Builds",
@@ -752,42 +786,119 @@
         ]
       },
       {
-        "name": "Particles",
-        "children": []
-      },
-      {
-        "name": "Dimensions",
-        "children": [
-          {
-            "name": "The Underground",
-            "children": []
-          },
-          {
-            "name": "Haven",
-            "children": []
-          },
-          {
-            "name": "Dragonia",
-            "children": []
-          },
-          {
-            "name": "Hell",
-            "children": []
-          }
-        ]
-      },
-      {
-        "name": "Ores",
-        "children": []
-      },
-      {
         "name": "Animals",
         "children": [
+          {
+            "name": "Jackalope",
+            "children": []
+          },
+          {
+            "name": "Trap Plant",
+            "children": []
+          },
+          {
+            "name": "Dune Lizard",
+            "children": []
+          },
+          {
+            "name": "legendary beast",
+            "children": [
+              {
+                "name": "King Kong",
+                "children": []
+              },
+              {
+                "name": "Leviathan",
+                "children": []
+              },
+              {
+                "name": "Kraken",
+                "children": []
+              },
+              {
+                "name": "Hydra",
+                "children": []
+              },
+              {
+                "name": "Jormungander",
+                "children": []
+              },
+              {
+                "name": "Phoenix",
+                "children": []
+              },
+              {
+                "name": "Wendigo",
+                "children": []
+              },
+              {
+                "name": "Lord of the Flys",
+                "children": []
+              },
+              {
+                "name": "Charybdis",
+                "children": []
+              },
+              {
+                "name": "Chimera",
+                "children": []
+              },
+              {
+                "name": "War Horse",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "Bull Bison",
+            "children": []
+          },
           {
             "name": "Crying Longhorn",
             "children": [
               {
                 "name": "Black Longhorn",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "Saber Fang",
+            "children": []
+          },
+          {
+            "name": "Hunter Hawk",
+            "children": []
+          },
+          {
+            "name": "Pengu",
+            "children": []
+          },
+          {
+            "name": "Steel Winged Eagle",
+            "children": []
+          },
+          {
+            "name": "Kong",
+            "children": []
+          },
+          {
+            "name": "Warrior Spider",
+            "children": []
+          },
+          {
+            "name": "Dragonfly",
+            "children": []
+          },
+          {
+            "name": "Hunter Orca",
+            "children": []
+          },
+          {
+            "name": "Dire Bear",
+            "children": [
+              {
+                "name": "Dire Polar Bear",
                 "children": []
               }
             ]
@@ -802,6 +913,47 @@
             ]
           },
           {
+            "name": "Armor Crab",
+            "children": []
+          },
+          {
+            "name": "Tank Rhinoceros",
+            "children": []
+          },
+          {
+            "name": "Terrorsaurus",
+            "children": []
+          },
+          {
+            "name": "Speer Nose Baracuda",
+            "children": []
+          },
+          {
+            "name": "Blitz Horn Zebra",
+            "children": []
+          },
+          {
+            "name": "Gargoyle",
+            "children": []
+          },
+          {
+            "name": "Pride King Leo",
+            "children": [
+              {
+                "name": "Leoness",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "Runner Lizard",
+            "children": []
+          },
+          {
+            "name": "Spirit Deer",
+            "children": []
+          },
+          {
             "name": "Fleet Foot Hare",
             "children": [
               {
@@ -811,130 +963,11 @@
             ]
           },
           {
-            "name": "ShadowWolves",
-            "children": [
-              {
-                "name": "Sub Wolf",
-                "children": []
-              }
-            ]
-          },
-          {
-            "name": "GiantBoars",
-            "children": [
-              {
-                "name": "Boarling",
-                "children": []
-              }
-            ]
-          },
-          {
-            "name": "Basilisk",
-            "children": []
-          },
-          {
-            "name": "Warrior Spider",
-            "children": []
-          },
-          {
-            "name": "Giant Toad",
-            "children": []
-          },
-          {
-            "name": "Saber Fang",
-            "children": []
-          },
-          {
-            "name": "Megalodon",
-            "children": []
-          },
-          {
-            "name": "Rock Tortoise",
-            "children": []
-          },
-          {
-            "name": "Speer Nose Baracuda",
-            "children": []
-          },
-          {
             "name": "Razor Fang Piranha",
             "children": []
           },
           {
-            "name": "legendary beast",
-            "children": [
-              {
-                "name": "Jormungander",
-                "children": []
-              },
-              {
-                "name": "Charybdis",
-                "children": []
-              },
-              {
-                "name": "Kraken",
-                "children": []
-              },
-              {
-                "name": "Hydra",
-                "children": []
-              },
-              {
-                "name": "Leviathan",
-                "children": []
-              },
-              {
-                "name": "King Kong",
-                "children": []
-              },
-              {
-                "name": "Lord of the Flys",
-                "children": []
-              },
-              {
-                "name": "War Horse",
-                "children": []
-              },
-              {
-                "name": "Phoenix",
-                "children": []
-              },
-              {
-                "name": "Wendigo",
-                "children": []
-              },
-              {
-                "name": "Chimera",
-                "children": []
-              }
-            ]
-          },
-          {
-            "name": "Terrorsaurus",
-            "children": []
-          },
-          {
-            "name": "Kong",
-            "children": []
-          },
-          {
-            "name": "Bandit Monkey",
-            "children": []
-          },
-          {
-            "name": "Hunter Hawk",
-            "children": []
-          },
-          {
-            "name": "Steel Winged Eagle",
-            "children": []
-          },
-          {
-            "name": "Dragonfly",
-            "children": []
-          },
-          {
-            "name": "Giant Titan Beetle",
+            "name": "Dark Raven",
             "children": []
           },
           {
@@ -942,6 +975,10 @@
             "children": [
               {
                 "name": "Birds",
+                "children": []
+              },
+              {
+                "name": "Turtle",
                 "children": []
               },
               {
@@ -959,15 +996,11 @@
               {
                 "name": "Lizard",
                 "children": []
-              },
-              {
-                "name": "Turtle",
-                "children": []
               }
             ]
           },
           {
-            "name": "Pengu",
+            "name": "Crocagator",
             "children": []
           },
           {
@@ -975,81 +1008,11 @@
             "children": []
           },
           {
-            "name": "Knight Owl",
+            "name": "Basilisk",
             "children": []
           },
           {
-            "name": "Wyvern",
-            "children": []
-          },
-          {
-            "name": "Runner Lizard",
-            "children": []
-          },
-          {
-            "name": "Dune Lizard",
-            "children": []
-          },
-          {
-            "name": "Tri Hump Camel",
-            "children": []
-          },
-          {
-            "name": "Armor Crab",
-            "children": []
-          },
-          {
-            "name": "Dark Raven",
-            "children": []
-          },
-          {
-            "name": "Trap Plant",
-            "children": []
-          },
-          {
-            "name": "Lava Serpent",
-            "children": []
-          },
-          {
-            "name": "Flying Snake",
-            "children": []
-          },
-          {
-            "name": "Spirit Deer",
-            "children": []
-          },
-          {
-            "name": "Gargoyle",
-            "children": []
-          },
-          {
-            "name": "Dire Bear",
-            "children": [
-              {
-                "name": "Dire Polar Bear",
-                "children": []
-              }
-            ]
-          },
-          {
-            "name": "Pride King Leo",
-            "children": [
-              {
-                "name": "Leoness",
-                "children": []
-              }
-            ]
-          },
-          {
-            "name": "Tank Rhinoceros",
-            "children": []
-          },
-          {
-            "name": "Rampage Elephant",
-            "children": []
-          },
-          {
-            "name": "Twin Head Giraffe",
+            "name": "Giant Toad",
             "children": []
           },
           {
@@ -1057,19 +1020,23 @@
             "children": []
           },
           {
-            "name": "Blitz Horn Zebra",
+            "name": "Bandit Monkey",
             "children": []
           },
           {
-            "name": "Bull Bison",
+            "name": "Rampage Elephant",
             "children": []
           },
           {
-            "name": "Jackalope",
+            "name": "Giant Titan Beetle",
             "children": []
           },
           {
-            "name": "Crocagator",
+            "name": "Flying Snake",
+            "children": []
+          },
+          {
+            "name": "Tri Hump Camel",
             "children": []
           },
           {
@@ -1077,286 +1044,136 @@
             "children": []
           },
           {
+            "name": "Twin Head Giraffe",
+            "children": []
+          },
+          {
+            "name": "Lava Serpent",
+            "children": []
+          },
+          {
+            "name": "Megalodon",
+            "children": []
+          },
+          {
+            "name": "GiantBoars",
+            "children": [
+              {
+                "name": "Boarling",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "Rock Tortoise",
+            "children": []
+          },
+          {
+            "name": "Wyvern",
+            "children": []
+          },
+          {
             "name": "Swift Seal",
             "children": []
           },
           {
-            "name": "Hunter Orca",
-            "children": []
-          }
-        ]
-      },
-      {
-        "name": "Food",
-        "children": []
-      },
-      {
-        "name": "Misc",
-        "children": [
-          {
-            "name": "key Binds",
-            "children": []
-          },
-          {
-            "name": "creative",
-            "children": []
-          }
-        ]
-      },
-      {
-        "name": "NPC",
-        "children": [
-          {
-            "name": "Otherworlders",
-            "children": []
-          },
-          {
-            "name": "Merchants",
-            "children": []
-          },
-          {
-            "name": "Adventurers",
-            "children": []
-          },
-          {
-            "name": "Villagers",
-            "children": []
-          },
-          {
-            "name": "Cultist",
-            "children": []
-          },
-          {
-            "name": "Bandits",
-            "children": []
-          },
-          {
-            "name": "Royals",
-            "children": []
-          },
-          {
-            "name": "Soldiers",
-            "children": []
-          },
-          {
-            "name": "Devotes",
-            "children": []
-          },
-          {
-            "name": "Drifters",
-            "children": []
-          },
-          {
-            "name": "Hermits",
-            "children": []
-          },
-          {
-            "name": "Rouges",
-            "children": []
-          },
-          {
-            "name": "Faye",
-            "children": []
-          },
-          {
-            "name": "Shinigami",
-            "children": []
-          }
-        ]
-      },
-      {
-        "name": "Heroes",
-        "children": [
-          {
-            "name": "Raijin Stuff",
+            "name": "ShadowWolves",
             "children": [
               {
-                "name": "Armors",
-                "children": []
-              },
-              {
-                "name": "Weapons",
-                "children": [
-                  {
-                    "name": "Gloves",
-                    "children": []
-                  },
-                  {
-                    "name": "Staff",
-                    "children": []
-                  }
-                ]
-              },
-              {
-                "name": "Stats",
-                "children": []
-              },
-              {
-                "name": "Attacks",
-                "children": []
-              },
-              {
-                "name": "Raijin Gifts",
-                "children": []
-              },
-              {
-                "name": "Magic",
+                "name": "Sub Wolf",
                 "children": []
               }
             ]
           },
           {
-            "name": "Isekai Stuff",
+            "name": "Knight Owl",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Monsters",
+        "children": [
+          {
+            "name": "World Bosses",
             "children": [
               {
-                "name": "Armor",
-                "children": [
-                  {
-                    "name": "Basic Leather Armor",
-                    "children": []
-                  }
-                ]
-              },
-              {
-                "name": "Holy Sword",
-                "children": [
-                  {
-                    "name": "Forms and Levels",
-                    "children": [
-                      {
-                        "name": "Forms",
-                        "children": [
-                          {
-                            "name": "Sword",
-                            "children": []
-                          },
-                          {
-                            "name": "Axe",
-                            "children": []
-                          },
-                          {
-                            "name": "Pick",
-                            "children": []
-                          },
-                          {
-                            "name": "Hammer",
-                            "children": []
-                          },
-                          {
-                            "name": "Great Sword",
-                            "children": []
-                          },
-                          {
-                            "name": "Giant Sword",
-                            "children": []
-                          },
-                          {
-                            "name": "Dagger",
-                            "children": []
-                          },
-                          {
-                            "name": "Spear",
-                            "children": []
-                          },
-                          {
-                            "name": "Katana",
-                            "children": []
-                          },
-                          {
-                            "name": "Shield",
-                            "children": []
-                          }
-                        ]
-                      },
-                      {
-                        "name": "Levels",
-                        "children": []
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Attacks",
-                "children": []
-              },
-              {
-                "name": "Stats",
-                "children": [
-                  {
-                    "name": "Full Power",
-                    "children": []
-                  },
-                  {
-                    "name": "Base",
-                    "children": []
-                  }
-                ]
-              },
-              {
-                "name": "Magic",
-                "children": []
-              },
-              {
-                "name": "Goddess Gifts",
+                "name": "Crimson Devourer",
                 "children": []
               }
             ]
           },
           {
-            "name": "Dragoneer Stuff",
-            "children": [
-              {
-                "name": "Armors",
-                "children": []
-              },
-              {
-                "name": "Claw",
-                "children": []
-              },
-              {
-                "name": "Amulet",
-                "children": []
-              },
-              {
-                "name": "Command Staff",
-                "children": []
-              },
-              {
-                "name": "Magic",
-                "children": []
-              },
-              {
-                "name": "Attacks",
-                "children": []
-              }
-            ]
+            "name": "Broodmother",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Dimensions",
+        "children": [
+          {
+            "name": "The Underground",
+            "children": []
           },
           {
-            "name": "Succubus Stuff",
+            "name": "Hell",
+            "children": []
+          },
+          {
+            "name": "Haven",
+            "children": []
+          },
+          {
+            "name": "Dragonia",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Servants and Waifus",
+        "children": [
+          {
+            "name": "Slaves",
+            "children": []
+          },
+          {
+            "name": "Demon Followers",
+            "children": []
+          },
+          {
+            "name": "Waifus",
             "children": [
               {
-                "name": "Armors",
+                "name": "Alma",
                 "children": []
               },
               {
-                "name": "Whip",
+                "name": "Olive",
                 "children": []
               },
               {
-                "name": "Stats",
+                "name": "Mimi",
                 "children": []
               },
               {
-                "name": "Attacks",
+                "name": "Luna",
                 "children": []
               },
               {
-                "name": "Magic",
+                "name": "Ryuka",
                 "children": []
               },
               {
-                "name": "Demon Magic",
+                "name": "Shinobu",
+                "children": []
+              },
+              {
+                "name": "Nika",
+                "children": []
+              },
+              {
+                "name": "Aradia",
                 "children": []
               }
             ]
@@ -1364,22 +1181,67 @@
         ]
       },
       {
-        "name": "Skills",
+        "name": "Dragons",
         "children": [
           {
-            "name": "Passive Skills",
+            "name": "Rock Drake",
             "children": []
           },
           {
-            "name": "Active Skills",
+            "name": "Starved Dragon",
             "children": []
           },
           {
-            "name": "Exclusive Skills",
+            "name": "Ruin Dragon",
             "children": []
           },
           {
-            "name": "Ultimate Skills",
+            "name": "Paladin Dragon",
+            "children": []
+          },
+          {
+            "name": "Ancient Dragons",
+            "children": [
+              {
+                "name": "Bringer of Annihilation",
+                "children": []
+              },
+              {
+                "name": "Ruler of the Skies",
+                "children": []
+              },
+              {
+                "name": "Chaos Incarnate",
+                "children": []
+              },
+              {
+                "name": "Master of the Sands",
+                "children": []
+              },
+              {
+                "name": "Commander of the Deep",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "Speed Drake",
+            "children": []
+          },
+          {
+            "name": "Sea Dragon",
+            "children": []
+          },
+          {
+            "name": "Crystalline Dragon",
+            "children": []
+          },
+          {
+            "name": "Fairy Dragon",
+            "children": []
+          },
+          {
+            "name": "Harpy Dragon",
             "children": []
           }
         ]
@@ -1387,6 +1249,138 @@
       {
         "name": "Deco Blocks",
         "children": []
+      },
+      {
+        "name": "Particles",
+        "children": []
+      },
+      {
+        "name": "Food",
+        "children": []
+      },
+      {
+        "name": "NPC",
+        "children": [
+          {
+            "name": "Hermits",
+            "children": []
+          },
+          {
+            "name": "Shinigami",
+            "children": []
+          },
+          {
+            "name": "Villagers",
+            "children": []
+          },
+          {
+            "name": "Merchants",
+            "children": []
+          },
+          {
+            "name": "Royals",
+            "children": []
+          },
+          {
+            "name": "Adventurers",
+            "children": []
+          },
+          {
+            "name": "Bandits",
+            "children": []
+          },
+          {
+            "name": "Drifters",
+            "children": []
+          },
+          {
+            "name": "Faye",
+            "children": []
+          },
+          {
+            "name": "Otherworlders",
+            "children": []
+          },
+          {
+            "name": "Devotes",
+            "children": []
+          },
+          {
+            "name": "Soldiers",
+            "children": []
+          },
+          {
+            "name": "Cultist",
+            "children": []
+          },
+          {
+            "name": "Rouges",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Ores",
+        "children": []
+      },
+      {
+        "name": "Mana Stuff",
+        "children": [
+          {
+            "name": "Mana",
+            "children": []
+          },
+          {
+            "name": "Magic",
+            "children": [
+              {
+                "name": "Elemental Magic",
+                "children": []
+              },
+              {
+                "name": "Demon Magic",
+                "children": []
+              },
+              {
+                "name": "Holy Magic",
+                "children": []
+              },
+              {
+                "name": "Basic Magic",
+                "children": []
+              },
+              {
+                "name": "Arc Magic",
+                "children": []
+              },
+              {
+                "name": "Dark Magic",
+                "children": [
+                  {
+                    "name": "Witchcraft",
+                    "children": []
+                  },
+                  {
+                    "name": "Necromancy",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "name": "Forbidden Magic",
+                "children": []
+              },
+              {
+                "name": "Advanced Magic",
+                "children": []
+              },
+              {
+                "name": "Ancient Dragon Magic",
+                "children": []
+              }
+            ]
+          }
+        ]
       }
     ]
   },

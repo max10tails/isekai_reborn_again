@@ -8,7 +8,9 @@ import net.minecraftforge.registries.RegistryObject;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.DeferredRegister;
 
+import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.BlockItem;
 
 import net.mcreator.isekaireborn.item.HolySwordLevel4Item;
 import net.mcreator.isekaireborn.item.HolySwordLevel3Item;
@@ -28,4 +30,9 @@ public class IsekaiRebornModItems {
 	public static final RegistryObject<Item> HOLY_SWORD_LEVEL_4 = REGISTRY.register("holy_sword_level_4", () -> new HolySwordLevel4Item());
 	public static final RegistryObject<Item> HOLY_SWORD_FULL_POWER = REGISTRY.register("holy_sword_full_power", () -> new HolySwordFullPowerItem());
 	public static final RegistryObject<Item> HOLY_SWORD_BROKEN = REGISTRY.register("holy_sword_broken", () -> new HolySwordBrokenItem());
+	public static final RegistryObject<Item> BLUE_GLO_SHROOMLING = block(IsekaiRebornModBlocks.BLUE_GLO_SHROOMLING);
+
+	private static RegistryObject<Item> block(RegistryObject<Block> block) {
+		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));
+	}
 }

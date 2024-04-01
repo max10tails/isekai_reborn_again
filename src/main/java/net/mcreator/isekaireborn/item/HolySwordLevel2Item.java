@@ -1,25 +1,7 @@
 
 package net.mcreator.isekaireborn.item;
 
-import net.minecraft.world.level.Level;
-import net.minecraft.world.item.crafting.Ingredient;
-import net.minecraft.world.item.TooltipFlag;
-import net.minecraft.world.item.Tier;
-import net.minecraft.world.item.SwordItem;
-import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.item.Item;
-import net.minecraft.world.entity.player.Player;
-import net.minecraft.world.entity.LivingEntity;
-import net.minecraft.world.entity.Entity;
-import net.minecraft.world.InteractionResultHolder;
-import net.minecraft.world.InteractionHand;
-import net.minecraft.network.chat.Component;
-
-import net.mcreator.isekaireborn.procedures.HolySwordLevel2ToolInHandTickProcedure;
-import net.mcreator.isekaireborn.procedures.HolySwordLevel2RightclickedProcedure;
-import net.mcreator.isekaireborn.procedures.HolySwordLevel2LivingEntityIsHitWithToolProcedure;
-
-import java.util.List;
+import net.minecraft.world.entity.ai.attributes.Attributes;
 
 public class HolySwordLevel2Item extends SwordItem {
 	public HolySwordLevel2Item() {
@@ -53,14 +35,14 @@ public class HolySwordLevel2Item extends SwordItem {
 	@Override
 	public boolean hurtEnemy(ItemStack itemstack, LivingEntity entity, LivingEntity sourceentity) {
 		boolean retval = super.hurtEnemy(itemstack, entity, sourceentity);
-		HolySwordLevel2LivingEntityIsHitWithToolProcedure.execute(entity.level(), entity, sourceentity);
+		HolySwordLevel2LivingEntityIsHitWithToolProcedure.execute();
 		return retval;
 	}
 
 	@Override
 	public InteractionResultHolder<ItemStack> use(Level world, Player entity, InteractionHand hand) {
 		InteractionResultHolder<ItemStack> ar = super.use(world, entity, hand);
-		HolySwordLevel2RightclickedProcedure.execute(world, entity.getX(), entity.getY(), entity.getZ(), entity, ar.getObject());
+		HolySwordLevel2RightclickedProcedure.execute();
 		return ar;
 	}
 
