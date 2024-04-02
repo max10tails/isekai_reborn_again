@@ -3,7 +3,7 @@
   "_type": "plant",
   "definition": {
     "renderType": 12,
-    "texture": "blueshroomling",
+    "texture": "green_glo_shroomling",
     "textureBottom": "",
     "customModelName": "Cross model",
     "itemTexture": "",
@@ -13,9 +13,9 @@
     "plantType": "normal",
     "suspiciousStewEffect": "GLOWING",
     "suspiciousStewDuration": 100,
-    "growapableSpawnType": "Cave",
+    "growapableSpawnType": "Plains",
     "growapableMaxHeight": 3,
-    "customBoundingBox": true,
+    "customBoundingBox": false,
     "disableOffset": false,
     "boundingBoxes": [
       {
@@ -28,7 +28,7 @@
         "subtract": false
       }
     ],
-    "name": "Blue Glo Shroomling",
+    "name": "Green Glo Shroomling",
     "specialInformation": {
       "fixedValue": []
     },
@@ -37,7 +37,7 @@
     },
     "hardness": 0.0,
     "resistance": 0.0,
-    "luminance": 3,
+    "luminance": 0,
     "unbreakable": false,
     "isSolid": false,
     "isCustomSoundType": false,
@@ -65,7 +65,7 @@
     },
     "dropAmount": 1,
     "forceTicking": false,
-    "emissiveRendering": true,
+    "emissiveRendering": false,
     "hasTileEntity": false,
     "isReplaceable": false,
     "colorOnMap": "DEFAULT",
@@ -78,59 +78,13 @@
     "fireSpreadSpeed": 60,
     "jumpFactor": 1.0,
     "speedFactor": 1.0,
-    "canBePlacedOn": [
-      {
-        "value": "Blocks.STONE#0"
-      },
-      {
-        "value": "Blocks.DEEPSLATE"
-      },
-      {
-        "value": "Blocks.GRASS"
-      },
-      {
-        "value": "Blocks.GRASS_PATH"
-      },
-      {
-        "value": "Blocks.MYCELIUM"
-      },
-      {
-        "value": "Blocks.DIRT#0"
-      },
-      {
-        "value": "Blocks.DIRT#1"
-      },
-      {
-        "value": "Blocks.DIRT#2"
-      },
-      {
-        "value": "Blocks.ROOTED_DIRT"
-      },
-      {
-        "value": "Blocks.MUD"
-      },
-      {
-        "value": "Blocks.MOSSY_COBBLESTONE"
-      },
-      {
-        "value": "Blocks.NETHERRACK"
-      },
-      {
-        "value": "Blocks.WARPED_NYLIUM"
-      },
-      {
-        "value": "Blocks.CRIMSON_NYLIUM"
-      },
-      {
-        "value": "Blocks.FLOWER_POT"
-      }
-    ],
+    "canBePlacedOn": [],
     "isBonemealable": false,
     "frequencyOnChunks": 5,
-    "generateFeature": true,
+    "generateFeature": false,
     "restrictionBiomes": [],
     "generationType": "Flower",
-    "patchSize": 20,
-    "generateAtAnyHeight": true
+    "patchSize": 64,
+    "generateAtAnyHeight": false
   }
 }
