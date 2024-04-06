@@ -32,6 +32,7 @@ public class IsekaiRebornModItems {
 	public static final RegistryObject<Item> HOLY_SWORD_BROKEN = REGISTRY.register("holy_sword_broken", () -> new HolySwordBrokenItem());
 	public static final RegistryObject<Item> BLUE_GLO_SHROOMLING = block(IsekaiRebornModBlocks.BLUE_GLO_SHROOMLING);
 	public static final RegistryObject<Item> PINK_GLO_SHROOMLING = block(IsekaiRebornModBlocks.PINK_GLO_SHROOMLING);
+	public static final RegistryObject<Item> GREEN_GLO_SHROOMLING = block(IsekaiRebornModBlocks.GREEN_GLO_SHROOMLING);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));
