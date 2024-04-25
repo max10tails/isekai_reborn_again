@@ -26,6 +26,12 @@ authors="User, MCreator"
     side="BOTH"
 
 [[dependencies.isekai_reborn]]
+    modId="character_leveling_up"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.isekai_reborn]]
     modId="kleidersplayerrenderer"
     mandatory=false
     versionRange="[0,)"
@@ -57,6 +63,12 @@ authors="User, MCreator"
     side="BOTH"
 [[dependencies.isekai_reborn]]
     modId="geckolib"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.isekai_reborn]]
+    modId="cl_configuration"
     mandatory=false
     versionRange="[0,)"
     ordering="NONE"

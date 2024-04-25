@@ -30,7 +30,9 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.isekaireborn.init.IsekaiRebornModTabs;
+import net.mcreator.isekaireborn.init.IsekaiRebornModParticleTypes;
 import net.mcreator.isekaireborn.init.IsekaiRebornModItems;
+import net.mcreator.isekaireborn.init.IsekaiRebornModEntities;
 import net.mcreator.isekaireborn.init.IsekaiRebornModBlocks;
 
 import java.util.function.Supplier;
@@ -54,8 +56,11 @@ public class IsekaiRebornMod {
 		IsekaiRebornModBlocks.REGISTRY.register(bus);
 
 		IsekaiRebornModItems.REGISTRY.register(bus);
+		IsekaiRebornModEntities.REGISTRY.register(bus);
 
 		IsekaiRebornModTabs.REGISTRY.register(bus);
+
+		IsekaiRebornModParticleTypes.REGISTRY.register(bus);
 
 	}
 

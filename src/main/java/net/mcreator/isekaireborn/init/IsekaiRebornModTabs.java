@@ -30,6 +30,10 @@ public class IsekaiRebornModTabs {
 	@SubscribeEvent
 	public static void buildTabContentsVanilla(BuildCreativeModeTabContentsEvent tabData) {
 
+		if (tabData.getTabKey() == CreativeModeTabs.SPAWN_EGGS) {
+			tabData.accept(IsekaiRebornModItems.CHAOS_DRAGON_SPAWN_EGG.get());
+		}
+
 		if (tabData.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
 			tabData.accept(IsekaiRebornModBlocks.BLUE_GLO_SHROOMLING.get().asItem());
 			tabData.accept(IsekaiRebornModBlocks.PINK_GLO_SHROOMLING.get().asItem());

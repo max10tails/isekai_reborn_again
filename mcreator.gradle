@@ -1,5 +1,16 @@
 repositories {
   maven {
+      url = 'https://cursemaven.com/'
+  }
+}
+
+dependencies {
+  implementation fg.deobf('curse.maven:character-leveling-up-943545:5179441')
+}
+
+
+repositories {
+  maven {
     url = "https://cursemaven.com"
   }
 }
@@ -143,6 +154,17 @@ minecraft {
         property 'mixin.env.refMapRemappingFile', "${projectDir}/build/createSrgToMcp/output.srg"
     }
   }
+}
+
+
+repositories {
+  maven {
+      url = 'https://cursemaven.com/'
+  }
+}
+
+dependencies {
+  implementation fg.deobf('curse.maven:cl-configuration-984415:5176882')
 }
 
 

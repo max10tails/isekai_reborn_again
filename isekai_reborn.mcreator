@@ -141,8 +141,8 @@
       "registry_name": "holy_sword_level_2",
       "metadata": {
         "files": [
-          "src/main/resources/assets/isekai_reborn/models/item/holy_sword_level_2.json",
-          "src/main/java/net/mcreator/isekaireborn/item/HolySwordLevel2Item.java"
+          "src/main/java/net/mcreator/isekaireborn/item/HolySwordLevel2Item.java",
+          "src/main/resources/assets/isekai_reborn/models/item/holy_sword_level_2.json"
         ]
       },
       "path": "~/Heroes/Isekai Stuff/Holy Sword/Forms and Levels/Forms/Sword"
@@ -263,8 +263,8 @@
       "registry_name": "holy_sword",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/isekaireborn/item/HolySwordItem.java",
-          "src/main/resources/assets/isekai_reborn/models/item/holy_sword.json"
+          "src/main/resources/assets/isekai_reborn/models/item/holy_sword.json",
+          "src/main/java/net/mcreator/isekaireborn/item/HolySwordItem.java"
         ]
       },
       "path": "~/Heroes/Isekai Stuff/Holy Sword/Forms and Levels/Forms/Sword"
@@ -348,8 +348,8 @@
       "registry_name": "holy_sword_full_power",
       "metadata": {
         "files": [
-          "src/main/resources/assets/isekai_reborn/models/item/holy_sword_full_power.json",
-          "src/main/java/net/mcreator/isekaireborn/item/HolySwordFullPowerItem.java"
+          "src/main/java/net/mcreator/isekaireborn/item/HolySwordFullPowerItem.java",
+          "src/main/resources/assets/isekai_reborn/models/item/holy_sword_full_power.json"
         ]
       },
       "path": "~/Heroes/Isekai Stuff/Holy Sword/Forms and Levels/Forms/Sword"
@@ -401,8 +401,8 @@
       "registry_name": "holy_sword_broken",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/isekaireborn/item/HolySwordBrokenItem.java",
-          "src/main/resources/assets/isekai_reborn/models/item/holy_sword_broken.json"
+          "src/main/resources/assets/isekai_reborn/models/item/holy_sword_broken.json",
+          "src/main/java/net/mcreator/isekaireborn/item/HolySwordBrokenItem.java"
         ]
       },
       "path": "~/Heroes/Isekai Stuff/Holy Sword/Forms and Levels/Forms/Sword"
@@ -830,6 +830,99 @@
         ]
       },
       "path": "~/Plants/GloShrooms"
+    },
+    {
+      "name": "BlueFlame",
+      "type": "particle",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_flame",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/isekaireborn/client/particle/BlueFlameParticle.java",
+          "src/main/resources/assets/isekai_reborn/particles/blue_flame.json"
+        ]
+      },
+      "path": "~/Particles"
+    },
+    {
+      "name": "Flame",
+      "type": "particle",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flame",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/isekaireborn/client/particle/FlameParticle.java",
+          "src/main/resources/assets/isekai_reborn/particles/flame.json"
+        ]
+      },
+      "path": "~/Particles"
+    },
+    {
+      "name": "Purpleflame",
+      "type": "particle",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purpleflame",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/isekai_reborn/particles/purpleflame.json",
+          "src/main/java/net/mcreator/isekaireborn/client/particle/PurpleflameParticle.java"
+        ]
+      },
+      "path": "~/Particles"
+    },
+    {
+      "name": "Blackflame",
+      "type": "particle",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blackflame",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/isekaireborn/client/particle/BlackflameParticle.java",
+          "src/main/resources/assets/isekai_reborn/particles/blackflame.json"
+        ]
+      },
+      "path": "~/Particles"
+    },
+    {
+      "name": "Greenflame",
+      "type": "particle",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "greenflame",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/isekai_reborn/particles/greenflame.json",
+          "src/main/java/net/mcreator/isekaireborn/client/particle/GreenflameParticle.java"
+        ]
+      },
+      "path": "~/Particles"
+    },
+    {
+      "name": "ChaosDragon",
+      "type": "animatedentity",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chaos_dragon",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/isekaireborn/entity/model/ChaosDragonModel.java",
+          "src/main/resources/assets/isekai_reborn/models/item/chaos_dragon_spawn_egg.json",
+          "src/main/java/net/mcreator/isekaireborn/entity/ChaosDragonEntity.java",
+          "src/main/java/net/mcreator/isekaireborn/client/renderer/ChaosDragonRenderer.java",
+          "src/main/java/net/mcreator/isekaireborn/entity/layer/ChaosDragonLayer.java"
+        ]
+      },
+      "path": "~/Dragons/Ancient Dragons/Chaos Incarnate"
     }
   ],
   "variable_elements": [],
@@ -842,23 +935,25 @@
       "advancements.new_world.title": "New World",
       "advancements.white_gem.title": "White Gem",
       "item.isekai_reborn.holy_sword": "Holy Sword",
+      "item.isekai_reborn.chaos_dragon_spawn_egg": "Chaos Dragon Spawn Egg",
+      "advancements.purple_gem.title": "Purple Gem",
+      "advancements.teal_gem.title": "Teal Gem",
+      "advancements.white_gem.descr": "The Holy Sword grows stronger",
+      "advancements.teal_gem.descr": "The Holy Sword grows stronger",
+      "block.isekai_reborn.green_glo_shroomling": "Green Glo Shroomling",
+      "entity.isekai_reborn.chaos_dragon": "Chaos Dragon",
       "item.isekai_reborn.holy_sword_full_power": "Holy Sword Full Power",
       "block.isekai_reborn.blue_glo_shroomling": "Blue Glo Shroomling",
       "item.isekai_reborn.holy_sword_level_3": "Holy Sword Level 3",
       "item.isekai_reborn.holy_sword_level_2": "Holy Sword Level 2",
-      "advancements.purple_gem.title": "Purple Gem",
       "item.isekai_reborn.holy_sword_level_4": "Holy Sword Level 4",
       "block.isekai_reborn.pink_glo_shroomling": "Pink Glo Shroomling",
       "advancements.green_gem.title": "Green Gem",
       "advancements.new_world.descr": "Welcome to your new home",
       "item.isekai_reborn.holy_sword_level_1": "Holy Sword Level 1",
-      "advancements.teal_gem.title": "Teal Gem",
       "advancements.green_gem.descr": "The Holy Sword\u0027s full power!",
       "advancements.red_gem.title": "Red Gem",
-      "advancements.white_gem.descr": "The Holy Sword grows stronger",
-      "advancements.teal_gem.descr": "The Holy Sword grows stronger",
-      "advancements.red_gem.descr": "The Holy Sword grows in power",
-      "block.isekai_reborn.green_glo_shroomling": "Green Glo Shroomling"
+      "advancements.red_gem.descr": "The Holy Sword grows in power"
     }
   },
   "foldersRoot": {
@@ -873,6 +968,10 @@
           },
           {
             "name": "creative",
+            "children": []
+          },
+          {
+            "name": "Money",
             "children": []
           }
         ]
@@ -1749,11 +1848,13 @@
     ],
     "dependants": [],
     "mcreatorDependencies": [
+      "character_leveling_up",
       "kleidersplayerrenderer",
       "pehkui",
       "use_compiled_mods",
       "curios_api",
       "geckolib",
+      "cl_configuration",
       "particlepresets",
       "jei"
     ],
