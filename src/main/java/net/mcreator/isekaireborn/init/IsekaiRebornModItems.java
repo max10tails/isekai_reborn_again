@@ -35,6 +35,8 @@ public class IsekaiRebornModItems {
 	public static final RegistryObject<Item> PINK_GLO_SHROOMLING = block(IsekaiRebornModBlocks.PINK_GLO_SHROOMLING);
 	public static final RegistryObject<Item> GREEN_GLO_SHROOMLING = block(IsekaiRebornModBlocks.GREEN_GLO_SHROOMLING);
 	public static final RegistryObject<Item> CHAOS_DRAGON_SPAWN_EGG = REGISTRY.register("chaos_dragon_spawn_egg", () -> new ForgeSpawnEggItem(IsekaiRebornModEntities.CHAOS_DRAGON, -16724737, -3407617, new Item.Properties()));
+	public static final RegistryObject<Item> SUCCUBUSPARTS_SPAWN_EGG = REGISTRY.register("succubusparts_spawn_egg", () -> new ForgeSpawnEggItem(IsekaiRebornModEntities.SUCCUBUSPARTS, -1, -1, new Item.Properties()));
+	public static final RegistryObject<Item> SUCCUBUS_SPAWN_EGG = REGISTRY.register("succubus_spawn_egg", () -> new ForgeSpawnEggItem(IsekaiRebornModEntities.SUCCUBUS, -3407872, -3407821, new Item.Properties()));
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

@@ -32,6 +32,8 @@ public class IsekaiRebornModTabs {
 
 		if (tabData.getTabKey() == CreativeModeTabs.SPAWN_EGGS) {
 			tabData.accept(IsekaiRebornModItems.CHAOS_DRAGON_SPAWN_EGG.get());
+			tabData.accept(IsekaiRebornModItems.SUCCUBUSPARTS_SPAWN_EGG.get());
+			tabData.accept(IsekaiRebornModItems.SUCCUBUS_SPAWN_EGG.get());
 		}
 
 		if (tabData.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {

@@ -923,6 +923,58 @@
         ]
       },
       "path": "~/Dragons/Ancient Dragons/Chaos Incarnate"
+    },
+    {
+      "name": "Succubusparts",
+      "type": "livingentity",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "succubusparts",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/isekaireborn/entity/SuccubuspartsEntity.java",
+          "src/main/resources/assets/isekai_reborn/models/item/succubusparts_spawn_egg.json",
+          "src/main/java/net/mcreator/isekaireborn/client/renderer/SuccubuspartsRenderer.java"
+        ]
+      },
+      "path": "~/Monsters/Succubus"
+    },
+    {
+      "name": "Succubus",
+      "type": "livingentity",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "succubus",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/isekaireborn/client/renderer/SuccubusRenderer.java",
+          "src/main/java/net/mcreator/isekaireborn/entity/SuccubusEntity.java",
+          "src/main/resources/assets/isekai_reborn/models/item/succubus_spawn_egg.json"
+        ]
+      },
+      "path": "~/Monsters/Succubus"
+    },
+    {
+      "name": "Succubusrender",
+      "type": "procedure",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "succubusrender",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/isekaireborn/procedures/SuccubusrenderProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Monsters/Succubus"
     }
   ],
   "variable_elements": [],
@@ -930,16 +982,20 @@
   "language_map": {
     "en_us": {
       "item_group.isekai_reborn.isekai_reborn_again": "Isekai Reborn Again",
+      "entity.isekai_reborn.succubus": "Succubus",
       "item.isekai_reborn.holy_sword_broken": "Holy Sword",
       "advancements.purple_gem.descr": "The Holy Sword continues to grow",
       "advancements.new_world.title": "New World",
       "advancements.white_gem.title": "White Gem",
       "item.isekai_reborn.holy_sword": "Holy Sword",
       "item.isekai_reborn.chaos_dragon_spawn_egg": "Chaos Dragon Spawn Egg",
+      "item.isekai_reborn.succubusparts_spawn_egg": "Succubusparts Spawn Egg",
       "advancements.purple_gem.title": "Purple Gem",
+      "entity.isekai_reborn.succubusparts": "Succubusparts",
       "advancements.teal_gem.title": "Teal Gem",
       "advancements.white_gem.descr": "The Holy Sword grows stronger",
       "advancements.teal_gem.descr": "The Holy Sword grows stronger",
+      "item.isekai_reborn.succubus_spawn_egg": "Succubus Spawn Egg",
       "block.isekai_reborn.green_glo_shroomling": "Green Glo Shroomling",
       "entity.isekai_reborn.chaos_dragon": "Chaos Dragon",
       "item.isekai_reborn.holy_sword_full_power": "Holy Sword Full Power",
@@ -1543,6 +1599,10 @@
           },
           {
             "name": "Broodmother",
+            "children": []
+          },
+          {
+            "name": "Succubus",
             "children": []
           }
         ]

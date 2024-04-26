@@ -16,6 +16,8 @@ import net.minecraft.world.entity.MobCategory;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.Entity;
 
+import net.mcreator.isekaireborn.entity.SuccubuspartsEntity;
+import net.mcreator.isekaireborn.entity.SuccubusEntity;
 import net.mcreator.isekaireborn.entity.ChaosDragonEntity;
 import net.mcreator.isekaireborn.IsekaiRebornMod;
 
@@ -24,6 +26,14 @@ public class IsekaiRebornModEntities {
 	public static final DeferredRegister<EntityType<?>> REGISTRY = DeferredRegister.create(ForgeRegistries.ENTITY_TYPES, IsekaiRebornMod.MODID);
 	public static final RegistryObject<EntityType<ChaosDragonEntity>> CHAOS_DRAGON = register("chaos_dragon",
 			EntityType.Builder.<ChaosDragonEntity>of(ChaosDragonEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(ChaosDragonEntity::new)
+
+					.sized(0.6f, 1.8f));
+	public static final RegistryObject<EntityType<SuccubuspartsEntity>> SUCCUBUSPARTS = register("succubusparts",
+			EntityType.Builder.<SuccubuspartsEntity>of(SuccubuspartsEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(SuccubuspartsEntity::new)
+
+					.sized(0.6f, 1.8f));
+	public static final RegistryObject<EntityType<SuccubusEntity>> SUCCUBUS = register("succubus",
+			EntityType.Builder.<SuccubusEntity>of(SuccubusEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(SuccubusEntity::new)
 
 					.sized(0.6f, 1.8f));
 
@@ -35,11 +45,15 @@ public class IsekaiRebornModEntities {
 	public static void init(FMLCommonSetupEvent event) {
 		event.enqueueWork(() -> {
 			ChaosDragonEntity.init();
+			SuccubuspartsEntity.init();
+			SuccubusEntity.init();
 		});
 	}
 
 	@SubscribeEvent
 	public static void registerAttributes(EntityAttributeCreationEvent event) {
 		event.put(CHAOS_DRAGON.get(), ChaosDragonEntity.createAttributes().build());
+		event.put(SUCCUBUSPARTS.get(), SuccubuspartsEntity.createAttributes().build());
+		event.put(SUCCUBUS.get(), SuccubusEntity.createAttributes().build());
 	}
 }
