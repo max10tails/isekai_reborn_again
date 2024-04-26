@@ -510,13 +510,13 @@
       "registry_name": "blue_glo_shroomling",
       "metadata": {
         "files": [
-          "src/main/resources/data/isekai_reborn/worldgen/configured_feature/blue_glo_shroomling.json",
-          "src/main/resources/assets/isekai_reborn/models/block/blue_glo_shroomling.json",
-          "src/main/resources/assets/isekai_reborn/models/item/blue_glo_shroomling.json",
-          "src/main/resources/data/isekai_reborn/forge/biome_modifier/blue_glo_shroomling_biome_modifier.json",
           "src/main/resources/data/isekai_reborn/worldgen/placed_feature/blue_glo_shroomling.json",
           "src/main/resources/assets/isekai_reborn/blockstates/blue_glo_shroomling.json",
-          "src/main/java/net/mcreator/isekaireborn/block/BlueGloShroomlingBlock.java"
+          "src/main/resources/assets/isekai_reborn/models/item/blue_glo_shroomling.json",
+          "src/main/resources/data/isekai_reborn/forge/biome_modifier/blue_glo_shroomling_biome_modifier.json",
+          "src/main/java/net/mcreator/isekaireborn/block/BlueGloShroomlingBlock.java",
+          "src/main/resources/assets/isekai_reborn/models/block/blue_glo_shroomling.json",
+          "src/main/resources/data/isekai_reborn/worldgen/configured_feature/blue_glo_shroomling.json"
         ]
       },
       "path": "~/Plants/GloShrooms"
@@ -806,10 +806,10 @@
       "registry_name": "pink_glo_shroomling",
       "metadata": {
         "files": [
-          "src/main/resources/assets/isekai_reborn/blockstates/pink_glo_shroomling.json",
-          "src/main/resources/assets/isekai_reborn/models/item/pink_glo_shroomling.json",
           "src/main/java/net/mcreator/isekaireborn/block/PinkGloShroomlingBlock.java",
-          "src/main/resources/assets/isekai_reborn/models/block/pink_glo_shroomling.json"
+          "src/main/resources/assets/isekai_reborn/models/item/pink_glo_shroomling.json",
+          "src/main/resources/assets/isekai_reborn/models/block/pink_glo_shroomling.json",
+          "src/main/resources/assets/isekai_reborn/blockstates/pink_glo_shroomling.json"
         ]
       },
       "path": "~/Plants/GloShrooms"
@@ -824,8 +824,8 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/isekai_reborn/models/item/green_glo_shroomling.json",
-          "src/main/java/net/mcreator/isekaireborn/block/GreenGloShroomlingBlock.java",
           "src/main/resources/assets/isekai_reborn/blockstates/green_glo_shroomling.json",
+          "src/main/java/net/mcreator/isekaireborn/block/GreenGloShroomlingBlock.java",
           "src/main/resources/assets/isekai_reborn/models/block/green_glo_shroomling.json"
         ]
       },
