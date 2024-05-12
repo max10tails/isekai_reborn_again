@@ -37,6 +37,10 @@ public class IsekaiRebornModItems {
 	public static final RegistryObject<Item> CHAOS_DRAGON_SPAWN_EGG = REGISTRY.register("chaos_dragon_spawn_egg", () -> new ForgeSpawnEggItem(IsekaiRebornModEntities.CHAOS_DRAGON, -16724737, -3407617, new Item.Properties()));
 	public static final RegistryObject<Item> SUCCUBUSPARTS_SPAWN_EGG = REGISTRY.register("succubusparts_spawn_egg", () -> new ForgeSpawnEggItem(IsekaiRebornModEntities.SUCCUBUSPARTS, -1, -1, new Item.Properties()));
 	public static final RegistryObject<Item> SUCCUBUS_SPAWN_EGG = REGISTRY.register("succubus_spawn_egg", () -> new ForgeSpawnEggItem(IsekaiRebornModEntities.SUCCUBUS, -3407872, -3407821, new Item.Properties()));
+	public static final RegistryObject<Item> DIRE_WOLF_ALPHA_SPAWN_EGG = REGISTRY.register("dire_wolf_alpha_spawn_egg", () -> new ForgeSpawnEggItem(IsekaiRebornModEntities.DIRE_WOLF_ALPHA, -6710887, -1, new Item.Properties()));
+	public static final RegistryObject<Item> SUB_WOLF_SPAWN_EGG = REGISTRY.register("sub_wolf_spawn_egg", () -> new ForgeSpawnEggItem(IsekaiRebornModEntities.SUB_WOLF, -1, -6710887, new Item.Properties()));
+	public static final RegistryObject<Item> GIANT_BOAR_SPAWN_EGG = REGISTRY.register("giant_boar_spawn_egg", () -> new ForgeSpawnEggItem(IsekaiRebornModEntities.GIANT_BOAR, -10092544, -10079488, new Item.Properties()));
+	public static final RegistryObject<Item> BOARLING_SPAWN_EGG = REGISTRY.register("boarling_spawn_egg", () -> new ForgeSpawnEggItem(IsekaiRebornModEntities.BOARLING, -6750208, -10079488, new Item.Properties()));
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

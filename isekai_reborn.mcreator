@@ -975,6 +975,198 @@
         ]
       },
       "path": "~/Monsters/Succubus"
+    },
+    {
+      "name": "DireWolfAlpha",
+      "type": "animatedentity",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dire_wolf_alpha",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/isekaireborn/entity/model/DireWolfAlphaModel.java",
+          "src/main/java/net/mcreator/isekaireborn/client/renderer/DireWolfAlphaRenderer.java",
+          "src/main/java/net/mcreator/isekaireborn/entity/DireWolfAlphaEntity.java",
+          "src/main/resources/assets/isekai_reborn/models/item/dire_wolf_alpha_spawn_egg.json"
+        ]
+      },
+      "path": "~/Animals/DireWolves"
+    },
+    {
+      "name": "SubWolf",
+      "type": "animatedentity",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sub_wolf",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/isekaireborn/client/renderer/SubWolfRenderer.java",
+          "src/main/java/net/mcreator/isekaireborn/entity/SubWolfEntity.java",
+          "src/main/resources/assets/isekai_reborn/models/item/sub_wolf_spawn_egg.json",
+          "src/main/java/net/mcreator/isekaireborn/entity/model/SubWolfModel.java"
+        ]
+      },
+      "path": "~/Animals/DireWolves/Sub Wolf"
+    },
+    {
+      "name": "GiantBoar",
+      "type": "animatedentity",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "giant_boar",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/isekaireborn/client/renderer/GiantBoarRenderer.java",
+          "src/main/java/net/mcreator/isekaireborn/entity/model/GiantBoarModel.java",
+          "src/main/resources/assets/isekai_reborn/models/item/giant_boar_spawn_egg.json",
+          "src/main/java/net/mcreator/isekaireborn/entity/GiantBoarEntity.java"
+        ]
+      },
+      "path": "~/Animals/GiantBoars"
+    },
+    {
+      "name": "Boarling",
+      "type": "animatedentity",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "boarling",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/isekaireborn/client/renderer/BoarlingRenderer.java",
+          "src/main/java/net/mcreator/isekaireborn/entity/BoarlingEntity.java",
+          "src/main/resources/assets/isekai_reborn/models/item/boarling_spawn_egg.json",
+          "src/main/java/net/mcreator/isekaireborn/entity/model/BoarlingModel.java"
+        ]
+      },
+      "path": "~/Animals/GiantBoars/Boarling"
+    },
+    {
+      "name": "DireWolfAlphaOnEntityTickUpdate",
+      "type": "procedure",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dire_wolf_alpha_on_entity_tick_update",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/isekaireborn/procedures/DireWolfAlphaOnEntityTickUpdateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Animals/DireWolves"
+    },
+    {
+      "name": "SubWolfOnEntityTickUpdate",
+      "type": "procedure",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sub_wolf_on_entity_tick_update",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/isekaireborn/procedures/SubWolfOnEntityTickUpdateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Animals/DireWolves/Sub Wolf"
+    },
+    {
+      "name": "GiantBoarOnEntityTickUpdate",
+      "type": "procedure",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "giant_boar_on_entity_tick_update",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/isekaireborn/procedures/GiantBoarOnEntityTickUpdateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Animals/GiantBoars"
+    },
+    {
+      "name": "GiantBoarEntityIsHurt",
+      "type": "procedure",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "giant_boar_entity_is_hurt",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/isekaireborn/procedures/GiantBoarEntityIsHurtProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Animals/GiantBoars"
+    },
+    {
+      "name": "DireWolfAlphaEntityIsHurt",
+      "type": "procedure",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dire_wolf_alpha_entity_is_hurt",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/isekaireborn/procedures/DireWolfAlphaEntityIsHurtProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Animals/DireWolves"
     }
   ],
   "variable_elements": [],
@@ -984,13 +1176,20 @@
       "item_group.isekai_reborn.isekai_reborn_again": "Isekai Reborn Again",
       "entity.isekai_reborn.succubus": "Succubus",
       "item.isekai_reborn.holy_sword_broken": "Holy Sword",
+      "entity.isekai_reborn.dire_wolf_alpha": "Dire Wolf Alpha",
       "advancements.purple_gem.descr": "The Holy Sword continues to grow",
       "advancements.new_world.title": "New World",
       "advancements.white_gem.title": "White Gem",
+      "entity.isekai_reborn.boarling": "Boarling",
       "item.isekai_reborn.holy_sword": "Holy Sword",
       "item.isekai_reborn.chaos_dragon_spawn_egg": "Chaos Dragon Spawn Egg",
       "item.isekai_reborn.succubusparts_spawn_egg": "Succubusparts Spawn Egg",
       "advancements.purple_gem.title": "Purple Gem",
+      "item.isekai_reborn.sub_wolf_spawn_egg": "Dire Wolf Spawn Egg",
+      "item.isekai_reborn.giant_boar_spawn_egg": "Giant Boar Spawn Egg",
+      "item.isekai_reborn.dire_wolf_alpha_spawn_egg": "Dire Wolf Alpha Spawn Egg",
+      "entity.isekai_reborn.sub_wolf": "Dire Wolf",
+      "item.isekai_reborn.boarling_spawn_egg": "Boarling Spawn Egg",
       "entity.isekai_reborn.succubusparts": "Succubusparts",
       "advancements.teal_gem.title": "Teal Gem",
       "advancements.white_gem.descr": "The Holy Sword grows stronger",
@@ -1002,6 +1201,7 @@
       "block.isekai_reborn.blue_glo_shroomling": "Blue Glo Shroomling",
       "item.isekai_reborn.holy_sword_level_3": "Holy Sword Level 3",
       "item.isekai_reborn.holy_sword_level_2": "Holy Sword Level 2",
+      "entity.isekai_reborn.giant_boar": "Giant Boar",
       "item.isekai_reborn.holy_sword_level_4": "Holy Sword Level 4",
       "block.isekai_reborn.pink_glo_shroomling": "Pink Glo Shroomling",
       "advancements.green_gem.title": "Green Gem",
@@ -1571,7 +1771,7 @@
             "children": []
           },
           {
-            "name": "ShadowWolves",
+            "name": "DireWolves",
             "children": [
               {
                 "name": "Sub Wolf",

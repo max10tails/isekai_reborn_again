@@ -34,6 +34,10 @@ public class IsekaiRebornModTabs {
 			tabData.accept(IsekaiRebornModItems.CHAOS_DRAGON_SPAWN_EGG.get());
 			tabData.accept(IsekaiRebornModItems.SUCCUBUSPARTS_SPAWN_EGG.get());
 			tabData.accept(IsekaiRebornModItems.SUCCUBUS_SPAWN_EGG.get());
+			tabData.accept(IsekaiRebornModItems.DIRE_WOLF_ALPHA_SPAWN_EGG.get());
+			tabData.accept(IsekaiRebornModItems.SUB_WOLF_SPAWN_EGG.get());
+			tabData.accept(IsekaiRebornModItems.GIANT_BOAR_SPAWN_EGG.get());
+			tabData.accept(IsekaiRebornModItems.BOARLING_SPAWN_EGG.get());
 		}
 
 		if (tabData.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
